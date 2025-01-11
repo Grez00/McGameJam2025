@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
     }
 
     //updates balance based on income
-    IEnumerator UpdateMoney()
+    public IEnumerator UpdateMoney()
     {
         while (true)
         {
