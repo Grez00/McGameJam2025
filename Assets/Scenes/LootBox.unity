@@ -588,7 +588,7 @@ MonoBehaviour:
   - {fileID: 6483914368902550648, guid: 264374333ef4e0c488cd794d336f1aa2, type: 3}
   - {fileID: -151401902739495973, guid: e0aafcb657fefb0459105717d6288aef, type: 3}
   animator: {fileID: 0}
-  animationDuration: 0.4
+  animationDuration: 1.2
 --- !u!95 &1297076080
 Animator:
   serializedVersion: 7
@@ -597,7 +597,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297076075}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: cc56d0397b25ca5439e6be8303ec4687, type: 2}
   m_CullingMode: 0

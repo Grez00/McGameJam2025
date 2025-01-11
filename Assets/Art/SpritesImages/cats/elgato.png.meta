@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      elgato_0: -7416686705017423735
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

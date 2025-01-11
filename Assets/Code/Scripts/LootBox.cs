@@ -17,6 +17,7 @@ public class Crate : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
         spriteRenderer.sprite = sprite0;
     }
 
@@ -24,32 +25,34 @@ public class Crate : MonoBehaviour
     {
         Debug.Log("CLICKED");
 
-        if (isAnimating)
-            return;
+        if (isAnimating) return;
 
-        if (breakage < breakageSprites.Length)
+        else
         {
-            StartCoroutine(HandleBreakage());
-        }
-        else if (breakage >= breakageSprites.Length)
-        {
-            StartCoroutine(opened());
+            if (breakage < 6)
+            {
+                StartCoroutine(Breakage());
+            }
+            else
+            {
+                StartCoroutine(opened());
+            }
         }
     }
 
-    private IEnumerator HandleBreakage()
+    private IEnumerator Breakage()
     {
         isAnimating = true;
 
-        //animator.SetTrigger("BreakageTrigger"); I DO NOT UNDERSTAND
+        animator.SetTrigger("BreakTrigger");  // I DO NOT UNDERSTAND
 
         yield return new WaitForSeconds(animationDuration);
 
         breakage++;
-        if (breakage < breakageSprites.Length)
+        /*if (breakage < breakageSprites.Length)
         {
             spriteRenderer.sprite = breakageSprites[breakage];
-        }
+        }*/
 
         isAnimating = false;
     }
@@ -58,7 +61,7 @@ public class Crate : MonoBehaviour
     {
         isAnimating = true;
 
-        //animator.SetTrigger("OpenTrigger"); SAVE ME
+        animator.SetTrigger("OpenTrigger"); // SAVE ME
 
         yield return new WaitForSeconds(animationDuration);
 
