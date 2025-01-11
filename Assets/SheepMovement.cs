@@ -11,7 +11,7 @@ public class SheepMovement : MonoBehaviour
     [SerializeField] private float walkSpeed = 1f;
     public float runSpeed = 1f;
     [SerializeField, Range(0f, 1f)] private float runChance = .1f; //chance for sheep to run when changing movement
-    [SerializeField] private SheepSpawner sheepSpawner;
+    public SheepSpawner sheepSpawner;
     public GameManager manager;
     private int currentDirection;
     Animator animator;

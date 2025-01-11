@@ -9,6 +9,8 @@ public class MoveAwayFromP : MonoBehaviour
     public KeyCode moveKey = KeyCode.Space;
     public string controllerButton = "A";
     private SheepMovement movement;
+    private float lastHit = -1f; // Stores the time of the last hit
+    private float cooldown = 1f; // Minimum time between hits
 
     void Start()
     {
@@ -31,14 +33,19 @@ public class MoveAwayFromP : MonoBehaviour
     {
         if (player == null) return; // Avoid null reference errors
 
-        if (Input.GetKey(moveKey) /*|| Input.GetButton(controllerButton)*/) // Check if the move key or controller button is pressed
+        if (Input.GetKey(moveKey) || Input.GetButton(controllerButton)) // Check if the move key or controller button is pressed
         {
-            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+            if (Time.time-lastHit > cooldown) {
 
-            if (distanceToPlayer < triggerDistance)
-            {
-                StartCoroutine(HitSheep());
-                // transform.position = (Vector2)transform.position + directionAway * moveSpeed * Time.deltaTime;
+                lastHit = Time.time;
+
+                float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+                if (distanceToPlayer < triggerDistance)
+                {
+                    StartCoroutine(HitSheep());
+                    // transform.position = (Vector2)transform.position + directionAway * moveSpeed * Time.deltaTime;
+                }
             }
         }
     }

@@ -13,11 +13,13 @@ public class SheepSpawner : MonoBehaviour
     private List<GameObject> sheep = new List<GameObject>();
     private Transform[] spawnPoints;
     private GameObject currentSheep;
+    public GameManager manager;
     
     void Start()
     {
         StartCoroutine(SpawnSheep());
         spawnPoints = GetComponentsInChildren<Transform>();
+        manager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     void Update()
@@ -33,6 +35,10 @@ public class SheepSpawner : MonoBehaviour
             yield return new WaitForSeconds(spawnRate);
             Transform spawnPos = spawnPoints[Random.Range(0, spawnPoints.Length)];
             currentSheep = Instantiate(sheepPrefab, spawnPos.position, Quaternion.identity);
+            SheepMovement movement = currentSheep.GetComponent<SheepMovement>();
+            movement.sheepSpawner = this;
+            movement.manager = manager;
+
             sheep.Add(currentSheep);
         }
     }
