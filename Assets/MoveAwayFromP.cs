@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class MoveAwayFromP : MonoBehaviour
@@ -7,6 +8,7 @@ public class MoveAwayFromP : MonoBehaviour
     public float triggerDistance = 5f;
     public KeyCode moveKey = KeyCode.Space;
     public string controllerButton = "A";
+    private SheepMovement movement;
 
     void Start()
     {
@@ -20,22 +22,34 @@ public class MoveAwayFromP : MonoBehaviour
         {
             Debug.LogError("Player not found! Ensure your player object is tagged as 'Player'.");
         }
+
+        movement = GetComponent<SheepMovement>();
+        if (movement == null) Debug.Log("NO MOVEMeNT");
     }
 
     void Update()
     {
         if (player == null) return; // Avoid null reference errors
 
-        if (Input.GetKey(moveKey) || Input.GetButton(controllerButton)) // Check if the move key or controller button is pressed
+        if (Input.GetKey(moveKey) /*|| Input.GetButton(controllerButton)*/) // Check if the move key or controller button is pressed
         {
             float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
             if (distanceToPlayer < triggerDistance)
             {
-                Vector2 directionAway = (transform.position - player.position).normalized;
-
-                transform.position = (Vector2)transform.position + directionAway * moveSpeed * Time.deltaTime;
+                StartCoroutine(HitSheep());
+                // transform.position = (Vector2)transform.position + directionAway * moveSpeed * Time.deltaTime;
             }
         }
     }
+
+    IEnumerator HitSheep() {
+        Vector2 directionAway = (transform.position - player.position).normalized;
+        movement.loop = false;
+        //movement.setSheepVelocity((Vector2)transform.position + directionAway * moveSpeed * Time.deltaTime, movement.runSpeed);
+        movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
+        yield return new WaitForSeconds(movement.movementRate * 3);
+        movement.loop = true;
+    }
+
 }
