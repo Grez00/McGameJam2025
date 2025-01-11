@@ -4,21 +4,25 @@ using UnityEngine;
 
 public class Crate : MonoBehaviour
 {
-    private int breakage = 0;
-    public Sprite sprite0;
-    public Sprite[] breakageSprites;
-    public Sprite[] openedSprites;
-    public Animator animator;
-    public float animationDuration;
+    [SerializeField] private Sprite initSprite;
+    [SerializeField] private Sprite[] breakageSprites;
+    [SerializeReference] public LootBoxReward[] prizes = new LootBoxReward[2];
+    [SerializeField] private float animationDuration;
 
+    private Animator animator;
     private SpriteRenderer spriteRenderer;
+    
+    private int breakage = 0;
     private bool isAnimating = false;
 
     void Start()
     {
+        prizes[0] = new FreeCat();
+        prizes[1] = new Cat2();
+
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        spriteRenderer.sprite = sprite0;
+        spriteRenderer.sprite = initSprite;
     }
 
     public void clicked()
@@ -44,15 +48,11 @@ public class Crate : MonoBehaviour
     {
         isAnimating = true;
 
-        animator.SetTrigger("BreakTrigger");  // I DO NOT UNDERSTAND
+        animator.SetTrigger("BreakTrigger");
 
         yield return new WaitForSeconds(animationDuration);
 
         breakage++;
-        /*if (breakage < breakageSprites.Length)
-        {
-            spriteRenderer.sprite = breakageSprites[breakage];
-        }*/
 
         isAnimating = false;
     }
@@ -61,10 +61,12 @@ public class Crate : MonoBehaviour
     {
         isAnimating = true;
 
-        animator.SetTrigger("OpenTrigger"); // SAVE ME
+        animator.SetTrigger("OpenTrigger");
 
         yield return new WaitForSeconds(animationDuration);
 
-        spriteRenderer.sprite = openedSprites[Random.Range(0, openedSprites.Length)];
+        LootBoxReward prize = prizes[Random.Range(0, prizes.Length)];
+        spriteRenderer.sprite = prize.getSprite();
+        prize.received();
     }
 }
