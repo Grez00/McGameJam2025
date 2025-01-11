@@ -33,7 +33,7 @@ public class MoveAwayFromP : MonoBehaviour
     {
         if (player == null) return; // Avoid null reference errors
 
-        if (Input.GetKey(moveKey) || Input.GetButton(controllerButton)) // Check if the move key or controller button is pressed
+        if (Input.GetKey(moveKey) /*|| Input.GetButton(controllerButton)*/) // Check if the move key or controller button is pressed
         {
             if (Time.time-lastHit > cooldown) {
 
