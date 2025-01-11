@@ -3,9 +3,13 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
+    //total player money
     private int Balance = 100;
+    //determines bleedrate and sheep speed
     [SerializeField] private int difficulty = 1;
+    //rate of money loss
     [SerializeField] private int bleedRate = 5;
+    //money brought in by each sheep
     [SerializeField] private int sheepValue = 1;
     [SerializeField] private SheepSpawner sheepSpawner;
 
@@ -20,6 +24,7 @@ public class GameManager : MonoBehaviour
         bleedRate = difficulty + 4;
     }
 
+    //updates balance based on income
     IEnumerator UpdateMoney()
     {
         while (true)
@@ -32,6 +37,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //gradually increases difficulty
     IEnumerator Bleed()
     {
         while (true)

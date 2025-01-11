@@ -5,8 +5,11 @@ using System.Collections.Generic;
 public class SheepSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject sheepPrefab;
+    //rate at which new sheep are created
     [SerializeField] private int spawnRate = 2;
+    //radius in which sheep create money
     [SerializeField] private float safeRadius = 10;
+    //list of sheep in safe radius
     private List<GameObject> sheep = new List<GameObject>();
     private GameObject currentSheep;
     
@@ -20,6 +23,7 @@ public class SheepSpawner : MonoBehaviour
         
     }
 
+    //instantiates new sheep based on spawn rate
     IEnumerator SpawnSheep()
     {
         while (true)
@@ -40,6 +44,7 @@ public class SheepSpawner : MonoBehaviour
         return safeRadius;
     }
 
+    //updates sheep list when one is lost
     public void SheepLost(GameObject lostSheep)
     {
         sheep.Remove(lostSheep);
