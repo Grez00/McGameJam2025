@@ -8,7 +8,7 @@ public class MoveAwayFromP : MonoBehaviour
     private Transform player;
     private Transform spawnPoint;
     private GameManager gameManager;
-    public float moveSpeed = 2f;
+    public float moveSpeed = 1f;
     public float triggerDistance = 5f;
     public KeyCode moveKey = KeyCode.Space;
     public string controllerButton = "Jump";
