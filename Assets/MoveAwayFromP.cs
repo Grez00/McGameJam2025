@@ -22,8 +22,9 @@ public class MoveAwayFromP : MonoBehaviour
     {
         Vector2 directionAway = (transform.position - player.position).normalized;
         movement.loop = false;
-        movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
+        movement.setSheepVelocity(directionAway, movement.runSpeed);
         yield return new WaitForSeconds(movement.movementRate * waitTimeMultiplier);
+        movement.loop = true;
     }
 
 
@@ -50,7 +51,7 @@ public class MoveAwayFromP : MonoBehaviour
                 Debug.LogError("Respawn not found! Ensure your respawn object is tagged as 'Respawn'.");
             }
 
-        GameObject gameManagerObject = GameObject.FindWithTag("GameController"); // Make sure your game manager has the tag "GameController"
+        GameObject gameManagerObject = GameObject.FindWithTag("GameManager"); // Make sure your game manager has the tag "GameController"
         if (gameManagerObject != null)
         {
             gameManager = gameManagerObject.GetComponent<GameManager>(); // Assign the GameManager component
@@ -61,7 +62,6 @@ public class MoveAwayFromP : MonoBehaviour
         }
 
         movement = GetComponent<SheepMovement>();
-        if (movement == null) Debug.Log("No movement component found!");
         if (movement == null) Debug.LogError("No movement component found!");
 
     }
@@ -78,7 +78,7 @@ public class MoveAwayFromP : MonoBehaviour
                 lastHit = Time.time;
 
                 float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-            directionAway = (transform.position - player.position).normalized;
+                directionAway = (transform.position - player.position).normalized;
 
                 if (distanceToPlayer < triggerDistance)
                 {
@@ -89,14 +89,9 @@ public class MoveAwayFromP : MonoBehaviour
                 SheepSpawner sheepSpawner = spawnPoint.GetComponent<SheepSpawner>();
                 if (sheepSpawner != null && Vector2.Distance(transform.position, spawnPoint.position) < sheepSpawner.GetRadius())
                 {
-                    if (gameManager != null)
-                    {
-                        gameManager.UpdateMoney();
-                    }
-                    else
-                    {
-                        Debug.LogError("GameManager is not initialized.");
-                    }
+                    if (gameManager != null) gameManager.UpdateMoney();
+                    else Debug.LogError("GameManager is not initialized.");
+         
                     Debug.Log("Sheep returned to pen");
                     movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
                 }
@@ -107,6 +102,7 @@ public class MoveAwayFromP : MonoBehaviour
             }
             Debug.Log("Sheep returned to pen");
 
+            if (movement == null) Debug.LogError("No movement component found at move time!");
             movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
         }
     }
