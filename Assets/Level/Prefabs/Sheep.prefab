@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1166022443933255885}
   - component: {fileID: 6194888777057833778}
   - component: {fileID: 4000609440986669834}
+  - component: {fileID: 6320699900280489871}
   m_Layer: 0
   m_Name: Sheep
   m_TagString: Untagged
@@ -101,8 +102,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06e59b01a4841164195ceb1c4b8692c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  direction: 0
+  walkSpeed: 1
+  runSpeed: 1
+  runChance: 0.1
+  sheepSpawner: {fileID: 0}
+  manager: {fileID: 0}
 --- !u!50 &4000609440986669834
 Rigidbody2D:
   serializedVersion: 5
@@ -130,3 +134,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6320699900280489871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6137907402022151151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe611cf768efaf4d910983e72bbefa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  moveSpeed: 2
+  triggerDistance: 5
+  moveKey: 32
+  controllerButton: A
