@@ -4,14 +4,15 @@ using System.Collections;
 
 public class SheepMovement : MonoBehaviour
 {
+    public bool loop = true;
     private Rigidbody2D sheep;
     private SpriteRenderer sprite;
-    [SerializeField] private int movementRate = 2; //determines how often a sheep changes its movement
+    public int movementRate = 2; //determines how often a sheep changes its movement
     [SerializeField] private float walkSpeed = 1f;
-    [SerializeField] private float runSpeed = 1f;
+    public float runSpeed = 1f;
     [SerializeField, Range(0f, 1f)] private float runChance = .1f; //chance for sheep to run when changing movement
     [SerializeField] private SheepSpawner sheepSpawner;
-    [SerializeField] private GameManager manager;
+    public GameManager manager;
     private int currentDirection;
     Animator animator;
     
@@ -26,21 +27,20 @@ public class SheepMovement : MonoBehaviour
     //randomly determines how sheep will move
     IEnumerator SheepMove()
     {
-        bool loop = true;
         while (loop)
         {
-            yield return new WaitForSeconds(movementRate);
             if (Random.value <= runChance)
             {
                 RunAway();
                 loop = false;
             }
-            else if (Random.value < .75) {
+            else if (Random.value < .85) {
                 Wander();
             }
             else{
                 Wait();
             }
+            yield return new WaitForSeconds(movementRate);
         }
     }
 
@@ -63,9 +63,14 @@ public class SheepMovement : MonoBehaviour
     }
 
     //sets sheep velocity based on direction and speed. Flips sprite appropriately.
-    private void setSheepVelocity(int direction, float speed)
+    public void setSheepVelocity(int direction, float speed)
     {
         sheep.linearVelocity = new Vector2(speed * Mathf.Sin(Mathf.Rad2Deg * direction), speed * Mathf.Cos(Mathf.Rad2Deg * direction));
+        sprite.flipX = sheep.linearVelocity.x > 0f;
+    }
+    public void setSheepVelocity(Vector2 direction, float speed)
+    {
+        sheep.linearVelocity = direction * speed;
         sprite.flipX = sheep.linearVelocity.x > 0f;
     }
 
