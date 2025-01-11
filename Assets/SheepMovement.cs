@@ -68,7 +68,6 @@ public class SheepMovement : MonoBehaviour
     public void setSheepVelocity(int direction, float speed)
     {
         sheep.linearVelocity = new Vector2(speed * Mathf.Sin(Mathf.Rad2Deg * direction), speed * Mathf.Cos(Mathf.Rad2Deg * direction));
-        if (Vector2.Distance(transform.position, Vector2.zero) < sheepSpawner.GetRadius()) { sheep.linearVelocity = sheep.linearVelocity.normalized * walkSpeed / 3; }
         sprite.flipX = sheep.linearVelocity.x > 0f;
     }
     public void setSheepVelocity(Vector2 direction, float speed)

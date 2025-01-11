@@ -1,12 +1,13 @@
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class GameManager : MonoBehaviour
 {
     private int Balance = 100; //total player money
-    [SerializeField] private int difficulty = 1; //determines bleedrate and sheep speed
-    [SerializeField] private int difficultyIncreaseRate = 10; //rate at which difficulty increases
-    [SerializeField] private int bleedRate = 5; //rate of money loss
+    [SerializeField] private float difficulty = 1.0f; //determines bleedrate and sheep speed
+    [SerializeField] private float difficultyIncreaseRate = 10; //rate at which difficulty increases
+    [SerializeField] private float bleedRate = 5; //rate of money loss
     [SerializeField] private int sheepValue = 1; //money brought in by each sheep
     [SerializeField] private SheepSpawner sheepSpawner;
 
@@ -27,7 +28,7 @@ public class GameManager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(1);
-            int income = -bleedRate + (sheepSpawner.GetSheepCount() * sheepValue);
+            int income = (int)(-bleedRate + (sheepSpawner.GetSheepCount() * sheepValue));
             Balance = Balance + income;
             Debug.Log("Cash: " + Balance);
             Debug.Log("Income: " + income);
@@ -44,7 +45,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public int getDifficulty()
+    public float getDifficulty()
     {
         return difficulty;
     }
