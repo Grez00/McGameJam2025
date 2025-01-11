@@ -42,16 +42,16 @@ public class MoveAwayFromP : MonoBehaviour
         }
 
         GameObject respawnObject = GameObject.FindWithTag("Respawn"); // Make sure your respawn has the tag "Respawn"
-            if (respawnObject != null)
-            {
-                spawnPoint = respawnObject.transform; // Assign the spawn point's Transform
-            }
-            else
-            {
-                Debug.LogError("Respawn not found! Ensure your respawn object is tagged as 'Respawn'.");
-            }
+        if (respawnObject != null)
+        {
+            spawnPoint = respawnObject.transform; // Assign the spawn point's Transform
+        }
+        else
+        {
+            Debug.LogError("Respawn not found! Ensure your respawn object is tagged as 'Respawn'.");
+        }
 
-        GameObject gameManagerObject = GameObject.FindWithTag("GameManager"); // Make sure your game manager has the tag "GameController"
+        GameObject gameManagerObject = GameObject.FindWithTag("GameController"); // Make sure your game manager has the tag "GameController"
         if (gameManagerObject != null)
         {
             gameManager = gameManagerObject.GetComponent<GameManager>(); // Assign the GameManager component
@@ -62,6 +62,7 @@ public class MoveAwayFromP : MonoBehaviour
         }
 
         movement = GetComponent<SheepMovement>();
+        Debug.Log("Hello I'm here and the movement is " + movement);
         if (movement == null) Debug.LogError("No movement component found!");
 
     }
@@ -73,7 +74,8 @@ public class MoveAwayFromP : MonoBehaviour
         Vector2 directionAway = Vector2.zero;
         if (Input.GetKey(moveKey) || Input.GetButtonDown("Jump")) // Check if the move key or controller button is pressed
         {
-            if (Time.time-lastHit > cooldown) {
+            if (Time.time - lastHit > cooldown)
+            {
 
                 lastHit = Time.time;
 
@@ -84,30 +86,34 @@ public class MoveAwayFromP : MonoBehaviour
                 {
                     StartCoroutine(HitSheep());
                     // transform.position = (Vector2)transform.position + directionAway * moveSpeed * Time.deltaTime;
-                }
+                    if (spawnPoint != null)
+                    {
+                        SheepSpawner sheepSpawner = spawnPoint.GetComponent<SheepSpawner>();
+                        if (sheepSpawner != null && Vector2.Distance(transform.position, spawnPoint.position) < sheepSpawner.GetRadius())
+                        {
+                            if (gameManager != null) gameManager.UpdateMoney();
+                            else Debug.LogError("GameManager is not initialized.");
 
-                SheepSpawner sheepSpawner = spawnPoint.GetComponent<SheepSpawner>();
-                if (sheepSpawner != null && Vector2.Distance(transform.position, spawnPoint.position) < sheepSpawner.GetRadius())
+                            Debug.Log("Sheep returned to pen");
+                            movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
+                        }
+                    }
+                }
+                else
                 {
-                    if (gameManager != null) gameManager.UpdateMoney();
-                    else Debug.LogError("GameManager is not initialized.");
-         
-                    Debug.Log("Sheep returned to pen");
-                    movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
+                    Debug.LogError("GameManager is not initialized.");
                 }
-            }
-            else
-            {
-                Debug.LogError("GameManager is not initialized.");
-            }
-            Debug.Log("Sheep returned to pen");
+                Debug.Log("Sheep returned to pen");
+                if (movement == null) Debug.LogError("No movement component found at move time!");
+                movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
 
-            if (movement == null) Debug.LogError("No movement component found at move time!");
-            movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
+            }
+
+
+
         }
     }
 }
-
 
 
 

@@ -3,13 +3,13 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
-    Animator animator;
+    // Animator animator;
 
-    private bool isMoving;
+    // private bool isMoving;
 
     void Awake()
     {
-        animator = GetComponent<Animator>();
+        // animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -21,14 +21,14 @@ public class PlayerMovement : MonoBehaviour
         //change animation display according to direction
         if (movementInput != Vector2.zero)
         {
-            isMoving = true;
-            animator.SetBool("IsMoving", isMoving);
-            animator.SetFloat("DirectionX", movementInput.x);
+            // isMoving = true;
+            // animator.SetBool("IsMoving", isMoving);
+            // animator.SetFloat("DirectionX", movementInput.x);
         }
         else
         {
-            isMoving = false;
-            animator.SetBool("IsMoving", isMoving);
+            // isMoving = false;
+            // animator.SetBool("IsMoving", isMoving);
         }
         transform.Translate(movementInput.normalized * speed * Time.deltaTime);   
     }
