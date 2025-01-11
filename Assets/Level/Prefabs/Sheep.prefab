@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6194888777057833778}
   - component: {fileID: 4000609440986669834}
   - component: {fileID: 6320699900280489871}
-  - component: {fileID: -7421753632238328853}
+  - component: {fileID: -940199974814369206}
   m_Layer: 0
   m_Name: Sheep
   m_TagString: Untagged
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
   triggerDistance: 5
   moveKey: 32
   controllerButton: A
---- !u!95 &-7421753632238328853
+--- !u!95 &-940199974814369206
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
