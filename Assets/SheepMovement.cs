@@ -11,7 +11,7 @@ public class SheepMovement : MonoBehaviour
     [SerializeField] private float walkSpeed = 1f;
     public float runSpeed = 1f;
     [SerializeField, Range(0f, 1f)] private float runChance = .1f; //chance for sheep to run when changing movement
-    [SerializeField] private SheepSpawner sheepSpawner;
+    public SheepSpawner sheepSpawner;
     public GameManager manager;
     private int currentDirection;
     Animator animator;
@@ -20,15 +20,16 @@ public class SheepMovement : MonoBehaviour
     {
         sheep = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
+        //animator = GetComponent<Animator>();
         StartCoroutine(SheepMove());
-        animator = GetComponent<Animator>();
+        
     }
 
     //randomly determines how sheep will move
     IEnumerator SheepMove()
     {
         while (loop)
-        {
+        {   
             if (Random.value <= runChance)
             {
                 RunAway();
@@ -81,14 +82,14 @@ public class SheepMovement : MonoBehaviour
         setSheepVelocity(currentDirection, runSpeed);
         
         //set sheep animation parameters accordingly to make the sheep animation move in proper speed and diretion
-        animator.SetBool("IsRunning", true);
+        //animator.SetBool("IsRunning", true);
         if (currentDirection > 0 && currentDirection < 90 || currentDirection > 270 && currentDirection < 360)
         {
-            animator.SetFloat("DirectionX", 1f);
+            //animator.SetFloat("DirectionX", 1f);
         }
         else
         {
-            animator.SetFloat("DirectionX", -1f);
+            //animator.SetFloat("DirectionX", -1f);
         }
         
     }
@@ -100,14 +101,14 @@ public class SheepMovement : MonoBehaviour
         setSheepVelocity(currentDirection, walkSpeed);
 
         //set sheep animation parameters accordingly
-        animator.SetBool("IsWalking", true);
+        //animator.SetBool("IsWalking", true);
         if (currentDirection > 0 && currentDirection < 90 || currentDirection > 270 && currentDirection < 360)
         {
-            animator.SetFloat("DirectionX", 1f);
+            //animator.SetFloat("DirectionX", 1f);
         }
         else
         {
-            animator.SetFloat("DirectionX", -1f);
+            //animator.SetFloat("DirectionX", -1f);
         }
     }
 
@@ -117,14 +118,14 @@ public class SheepMovement : MonoBehaviour
         sheep.linearVelocity = Vector2.zero;
 
         //set sheep animation parameters accordingly
-        animator.SetBool("IsIdle", true);
+        //animator.SetBool("IsIdle", true);
         if (currentDirection > 0 && currentDirection < 90 || currentDirection > 270 && currentDirection < 360)
         {
-            animator.SetFloat("DirectionX", 1f);
+            //animator.SetFloat("DirectionX", 1f);
         }
         else
         {
-            animator.SetFloat("DirectionX", -1f);
+            //animator.SetFloat("DirectionX", -1f);
         }
     }
 }

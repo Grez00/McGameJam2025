@@ -13,6 +13,8 @@ public class MoveAwayFromP : MonoBehaviour
     public KeyCode moveKey = KeyCode.Space;
     public string controllerButton = "Jump";
     private SheepMovement movement;
+    private float lastHit = -1f; // Stores the time of the last hit
+    private float cooldown = 1f; // Minimum time between hits
     // Multiplier for the wait time after hitting the sheep
     public float waitTimeMultiplier = 3f;
 
@@ -71,13 +73,18 @@ public class MoveAwayFromP : MonoBehaviour
         Vector2 directionAway = Vector2.zero;
         if (Input.GetKey(moveKey) || Input.GetButtonDown("Jump")) // Check if the move key or controller button is pressed
         {
-            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+            if (Time.time-lastHit > cooldown) {
+
+                lastHit = Time.time;
+
+                float distanceToPlayer = Vector2.Distance(transform.position, player.position);
             directionAway = (transform.position - player.position).normalized;
 
-            if (distanceToPlayer < triggerDistance)
-            {
-                StartCoroutine(HitSheep());
-                // transform.position = (Vector2)transform.position + directionAway * moveSpeed * Time.deltaTime;
+                if (distanceToPlayer < triggerDistance)
+                {
+                    StartCoroutine(HitSheep());
+                    // transform.position = (Vector2)transform.position + directionAway * moveSpeed * Time.deltaTime;
+                }
 
                 SheepSpawner sheepSpawner = spawnPoint.GetComponent<SheepSpawner>();
                 if (sheepSpawner != null && Vector2.Distance(transform.position, spawnPoint.position) < sheepSpawner.GetRadius())
