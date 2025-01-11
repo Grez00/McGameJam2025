@@ -6,8 +6,9 @@ public class Crate : MonoBehaviour
 {
     [SerializeField] private Sprite initSprite;
     [SerializeField] private Sprite[] breakageSprites;
-    [SerializeReference] public LootBoxReward[] prizes = new LootBoxReward[2];
+    [SerializeReference] private LootBoxReward[] prizes = new LootBoxReward[2];
     [SerializeField] private float animationDuration;
+    [SerializeField] private SpriteRenderer rewardSprite;
 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -66,7 +67,8 @@ public class Crate : MonoBehaviour
         yield return new WaitForSeconds(animationDuration);
 
         LootBoxReward prize = prizes[Random.Range(0, prizes.Length)];
-        spriteRenderer.sprite = prize.getSprite();
+        rewardSprite.sprite = prize.getSprite();
         prize.received();
+        this.gameObject.SetActive(false);
     }
 }
