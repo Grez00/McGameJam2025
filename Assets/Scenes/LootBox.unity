@@ -577,16 +577,7 @@ MonoBehaviour:
   - {fileID: -5634450955270020626, guid: edb4325412c59f34a8ef929997d1902e, type: 3}
   - {fileID: -1344281212786297493, guid: fab35fe94f1074147850d39ef58ad195, type: 3}
   openedSprites:
-  - {fileID: -1545831449434395195, guid: f5aa5de52bff44a46b922c66874c1c3a, type: 3}
   - {fileID: -7416686705017423735, guid: 469f17065ab2d8d45940a312bedfaf04, type: 3}
-  - {fileID: -2514060299128379226, guid: bd0fe1db27e06174b8badaffa7ac1413, type: 3}
-  - {fileID: 552692492004367204, guid: 9a806e6ae9bc0844bb6db74847aae85c, type: 3}
-  - {fileID: -527181374131050080, guid: aa957eb3f8ef44447b26c3a874ea8206, type: 3}
-  - {fileID: -3617637119314321609, guid: 49388176e1ff03440b9efadbe00d52a7, type: 3}
-  - {fileID: 4146866859752961165, guid: b3b53c12b4b6efb42956b3c887cbaa3f, type: 3}
-  - {fileID: -4585503802161752222, guid: cc58524562ea3b442a1660348e8ced86, type: 3}
-  - {fileID: 6483914368902550648, guid: 264374333ef4e0c488cd794d336f1aa2, type: 3}
-  - {fileID: -151401902739495973, guid: e0aafcb657fefb0459105717d6288aef, type: 3}
   animator: {fileID: 0}
   animationDuration: 1.2
 --- !u!95 &1297076080
