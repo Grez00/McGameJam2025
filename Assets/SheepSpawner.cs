@@ -11,11 +11,13 @@ public class SheepSpawner : MonoBehaviour
     [SerializeField] private float safeRadius = 10;
     //list of sheep in safe radius
     private List<GameObject> sheep = new List<GameObject>();
+    private Transform[] spawnPoints;
     private GameObject currentSheep;
     
     void Start()
     {
         StartCoroutine(SpawnSheep());
+        spawnPoints = GetComponentsInChildren<Transform>();
     }
 
     void Update()
@@ -29,7 +31,8 @@ public class SheepSpawner : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(spawnRate);
-            currentSheep = Instantiate(sheepPrefab, transform.position, Quaternion.identity);
+            Transform spawnPos = spawnPoints[Random.Range(0, spawnPoints.Length)];
+            currentSheep = Instantiate(sheepPrefab, spawnPos.position, Quaternion.identity);
             sheep.Add(currentSheep);
         }
     }

@@ -6,9 +6,10 @@ public class SheepMovement : MonoBehaviour
 {
     private Rigidbody2D sheep;
     private SpriteRenderer sprite;
+    [SerializeField] private int movementRate = 2; //determines how often a sheep changes its movement
     [SerializeField] private float walkSpeed = 1f;
     [SerializeField] private float runSpeed = 1f;
-    [SerializeField, Range(0f, 1f)] private float runChance = .1f;
+    [SerializeField, Range(0f, 1f)] private float runChance = .1f; //chance for sheep to run when changing movement
     [SerializeField] private SheepSpawner sheepSpawner;
     [SerializeField] private GameManager manager;
     private int currentDirection;
@@ -26,7 +27,7 @@ public class SheepMovement : MonoBehaviour
         bool loop = true;
         while (loop)
         {
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(movementRate);
             if (Random.value <= runChance)
             {
                 RunAway();

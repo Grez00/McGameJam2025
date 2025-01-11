@@ -3,14 +3,11 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
-    //total player money
-    private int Balance = 100;
-    //determines bleedrate and sheep speed
-    [SerializeField] private int difficulty = 1;
-    //rate of money loss
-    [SerializeField] private int bleedRate = 5;
-    //money brought in by each sheep
-    [SerializeField] private int sheepValue = 1;
+    private int Balance = 100; //total player money
+    [SerializeField] private int difficulty = 1; //determines bleedrate and sheep speed
+    [SerializeField] private int difficultyIncreaseRate = 5; //rate at which difficulty increases
+    [SerializeField] private int bleedRate = 5; //rate of money loss
+    [SerializeField] private int sheepValue = 1; //money brought in by each sheep
     [SerializeField] private SheepSpawner sheepSpawner;
 
     void Start()
@@ -42,7 +39,7 @@ public class GameManager : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(difficultyIncreaseRate);
             difficulty += 1;
         }
     }
