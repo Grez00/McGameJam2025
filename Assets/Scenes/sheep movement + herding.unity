@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 434285799}
   - component: {fileID: 434285798}
   - component: {fileID: 434285801}
+  - component: {fileID: 434285802}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -256,6 +257,21 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &434285802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434285797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b0dbc42f07f8f0449c68c49bc781215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1867657008}
+  smoothSpeed: 0.125
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &1449699697
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,6 +410,7 @@ MonoBehaviour:
   bleedRate: 5
   sheepValue: 1
   sheepSpawner: {fileID: 1449699698}
+  max_diff: 10
 --- !u!4 &1467044815
 Transform:
   m_ObjectHideFlags: 0
