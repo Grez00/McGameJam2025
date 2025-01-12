@@ -1,35 +1,41 @@
+
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
-    // Animator animator;
+    Animator animator;
+    private Rigidbody2D rb;
+    private Vector2 movementDirection;
 
-    // private bool isMoving;
+    private bool isMoving;
 
     void Awake()
     {
-        // animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
-        Vector2 movementInput = new Vector2 (moveX, moveY);
+        movementDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")); 
 
         //change animation display according to direction
-        if (movementInput != Vector2.zero)
+        if (movementDirection != Vector2.zero)
         {
-            // isMoving = true;
-            // animator.SetBool("IsMoving", isMoving);
-            // animator.SetFloat("DirectionX", movementInput.x);
+            isMoving = true;
+            animator.SetBool("IsMoving", isMoving);
+            animator.SetFloat("DirectionX", movementDirection.x);
         }
         else
         {
-            // isMoving = false;
-            // animator.SetBool("IsMoving", isMoving);
+            isMoving = false;
+            animator.SetBool("IsMoving", isMoving);
         }
-        transform.Translate(movementInput.normalized * speed * Time.deltaTime);   
+    }
+
+    void FixedUpdate()
+    {
+        rb.linearVelocity = movementDirection * speed;
     }
 }

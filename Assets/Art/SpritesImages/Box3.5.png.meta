@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: ca8860166f95b48369e5f474ab25eebc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4666137363035888120
+    second: Box3.5_0
+  - first:
+      213: 8285077719558604814
+    second: Box3.5_1
+  - first:
+      213: 1509533683102189656
+    second: Box3.5_2
+  - first:
+      213: -3630645277348968021
+    second: Box3.5_3
+  - first:
+      213: -3905219325481615114
+    second: Box3.5_4
+  - first:
+      213: -7040860712605544221
+    second: Box3.5_5
+  - first:
+      213: -6438544072614956579
+    second: Box3.5_6
+  - first:
+      213: -176985131008003412
+    second: Box3.5_7
+  - first:
+      213: -3771799327998019392
+    second: Box3.5_8
+  - first:
+      213: 6988476249066255966
+    second: Box3.5_9
+  - first:
+      213: -375066865670768755
+    second: Box3.5_10
+  - first:
+      213: -3553234448132317903
+    second: Box3.5_11
+  - first:
+      213: -382313351287739732
+    second: Box3.5_12
+  - first:
+      213: 821165544535555166
+    second: Box3.5_13
+  - first:
+      213: -6500917627207686965
+    second: Box3.5_14
+  - first:
+      213: -6279119264483018349
+    second: Box3.5_15
+  - first:
+      213: -2478550727499928767
+    second: Box3.5_16
+  - first:
+      213: -3990699627475418652
+    second: Box3.5_17
+  - first:
+      213: -4162699146542769875
+    second: Box3.5_18
+  - first:
+      213: 8076988547130023726
+    second: Box3.5_19
+  - first:
+      213: -4767209270417635525
+    second: Box3.5_20
+  - first:
+      213: 4693472122147826462
+    second: Box3.5_21
+  - first:
+      213: 6384737910101395700
+    second: Box3.5_22
+  - first:
+      213: 3321818533250447344
+    second: Box3.5_23
+  - first:
+      213: -5127610665016374541
+    second: Box3.5_24
+  - first:
+      213: -9194349840700252605
+    second: Box3.5_25
+  - first:
+      213: -4703802086138435350
+    second: Box3.5_26
+  - first:
+      213: -1806767803466928016
+    second: Box3.5_27
+  - first:
+      213: 7092839741559129309
+    second: Box3.5_28
+  - first:
+      213: 5633279661301512821
+    second: Box3.5_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Box3.5_0
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 808
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80661136acc8e3fb0800000000000000
+      internalID: -4666137363035888120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_1
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 844
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e084bca2a428af270800000000000000
+      internalID: 8285077719558604814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_2
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 801
+        width: 172
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8580bcd03e0f2f410800000000000000
+      internalID: 1509533683102189656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_3
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 835
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba94a223b5b5d9dc0800000000000000
+      internalID: -3630645277348968021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_4
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 821
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f08da6d6bfddc9c0800000000000000
+      internalID: -3905219325481615114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_5
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 812
+        width: 84
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e094286c76d94e90800000000000000
+      internalID: -7040860712605544221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_6
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 815
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1b6116742b5a6a0800000000000000
+      internalID: -6438544072614956579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_7
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 843
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2fdb706f83b8df0800000000000000
+      internalID: -176985131008003412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_8
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 819
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8fe9abe70e7abc0800000000000000
+      internalID: -3771799327998019392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_9
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 840
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5639da3f1e0cf060800000000000000
+      internalID: 6988476249066255966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_10
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 809
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87bca04cae7bcaf0800000000000000
+      internalID: -375066865670768755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_11
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 828
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d5463681060bec0800000000000000
+      internalID: -3553234448132317903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_12
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 822
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caaea975800c1baf0800000000000000
+      internalID: -382313351287739732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_13
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 834
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cf4d746bd556b00800000000000000
+      internalID: 821165544535555166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_14
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 776
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4e5348cd918c5a0800000000000000
+      internalID: -6500917627207686965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_15
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 820
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3997d221c461cd8a0800000000000000
+      internalID: -6279119264483018349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_16
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 812
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ba499ce3b6a9dd0800000000000000
+      internalID: -2478550727499928767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_17
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 815
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e14b0b15df2e98c0800000000000000
+      internalID: -3990699627475418652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_18
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 813
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d291f7f5e2f1b36c0800000000000000
+      internalID: -4162699146542769875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_19
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 809
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f55963a4a371070800000000000000
+      internalID: 8076988547130023726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_20
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 805
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37cec22d6877ddb0800000000000000
+      internalID: -4767209270417635525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_21
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 809
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1be1db2700922140800000000000000
+      internalID: 4693472122147826462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_22
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 795
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8409b2d452b9850800000000000000
+      internalID: 6384737910101395700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_23
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 669
+        width: 97
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7b3b23b58791e20800000000000000
+      internalID: 3321818533250447344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_24
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 799
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fac135744117d8b0800000000000000
+      internalID: -5127610665016374541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_25
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 763
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e546c988b176080800000000000000
+      internalID: -9194349840700252605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_26
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 241
+        width: 653
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae82af9acecb8beb0800000000000000
+      internalID: -4703802086138435350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_27
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 681
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070bdb261421de6e0800000000000000
+      internalID: -1806767803466928016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_28
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 596
+        width: 279
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4c76c5a24de6260800000000000000
+      internalID: 7092839741559129309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box3.5_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 101
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a3f4c610e6d2e40800000000000000
+      internalID: 5633279661301512821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Box3.5_0: -4666137363035888120
+      Box3.5_1: 8285077719558604814
+      Box3.5_10: -375066865670768755
+      Box3.5_11: -3553234448132317903
+      Box3.5_12: -382313351287739732
+      Box3.5_13: 821165544535555166
+      Box3.5_14: -6500917627207686965
+      Box3.5_15: -6279119264483018349
+      Box3.5_16: -2478550727499928767
+      Box3.5_17: -3990699627475418652
+      Box3.5_18: -4162699146542769875
+      Box3.5_19: 8076988547130023726
+      Box3.5_2: 1509533683102189656
+      Box3.5_20: -4767209270417635525
+      Box3.5_21: 4693472122147826462
+      Box3.5_22: 6384737910101395700
+      Box3.5_23: 3321818533250447344
+      Box3.5_24: -5127610665016374541
+      Box3.5_25: -9194349840700252605
+      Box3.5_26: -4703802086138435350
+      Box3.5_27: -1806767803466928016
+      Box3.5_28: 7092839741559129309
+      Box3.5_29: 5633279661301512821
+      Box3.5_3: -3630645277348968021
+      Box3.5_4: -3905219325481615114
+      Box3.5_5: -7040860712605544221
+      Box3.5_6: -6438544072614956579
+      Box3.5_7: -176985131008003412
+      Box3.5_8: -3771799327998019392
+      Box3.5_9: 6988476249066255966
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

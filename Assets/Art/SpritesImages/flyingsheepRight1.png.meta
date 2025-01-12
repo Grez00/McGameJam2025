@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: 7c63a88c09cc84c85aaac39afe3c7a35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8316401977151009563
+    second: flyingsheepRight1_0
+  - first:
+      213: 421674189216650443
+    second: flyingsheepRight1_1
+  - first:
+      213: 8359903347048994165
+    second: flyingsheepRight1_2
+  - first:
+      213: 7807765777031236674
+    second: flyingsheepRight1_3
+  - first:
+      213: 3354292846457836961
+    second: flyingsheepRight1_4
+  - first:
+      213: 4819998209397112598
+    second: flyingsheepRight1_5
+  - first:
+      213: 4072719572201507351
+    second: flyingsheepRight1_6
+  - first:
+      213: -1095410305282196247
+    second: flyingsheepRight1_7
+  - first:
+      213: 2056502137747631349
+    second: flyingsheepRight1_8
+  - first:
+      213: -332290036917857686
+    second: flyingsheepRight1_9
+  - first:
+      213: 8155144737315495030
+    second: flyingsheepRight1_10
+  - first:
+      213: 4832600612177038542
+    second: flyingsheepRight1_11
+  - first:
+      213: 3408626295912346116
+    second: flyingsheepRight1_12
+  - first:
+      213: -7124048885908379705
+    second: flyingsheepRight1_13
+  - first:
+      213: 6627163476381838410
+    second: flyingsheepRight1_14
+  - first:
+      213: -3722126902358983837
+    second: flyingsheepRight1_15
+  - first:
+      213: 3273315138032949616
+    second: flyingsheepRight1_16
+  - first:
+      213: -8941974024788104195
+    second: flyingsheepRight1_17
+  - first:
+      213: -6256310609085642877
+    second: flyingsheepRight1_18
+  - first:
+      213: 7541150427430922572
+    second: flyingsheepRight1_19
+  - first:
+      213: 457350775647451890
+    second: flyingsheepRight1_20
+  - first:
+      213: -446242318276478141
+    second: flyingsheepRight1_21
+  - first:
+      213: 5010006311811738415
+    second: flyingsheepRight1_22
+  - first:
+      213: -3166852110871497560
+    second: flyingsheepRight1_23
+  - first:
+      213: -2790959416815266933
+    second: flyingsheepRight1_24
+  - first:
+      213: -159931196345783933
+    second: flyingsheepRight1_25
+  - first:
+      213: -6277420127150683401
+    second: flyingsheepRight1_26
+  - first:
+      213: -688129943169575231
+    second: flyingsheepRight1_27
+  - first:
+      213: -6455892184322730591
+    second: flyingsheepRight1_28
+  - first:
+      213: 2705149355483348243
+    second: flyingsheepRight1_29
+  - first:
+      213: 5303119553895958428
+    second: flyingsheepRight1_30
+  - first:
+      213: -904359529179017253
+    second: flyingsheepRight1_31
+  - first:
+      213: -5768326672850391237
+    second: flyingsheepRight1_32
+  - first:
+      213: -18843714093944386
+    second: flyingsheepRight1_33
+  - first:
+      213: -6172997856784249156
+    second: flyingsheepRight1_34
+  - first:
+      213: 5736506096813560282
+    second: flyingsheepRight1_35
+  - first:
+      213: -8893610614823641124
+    second: flyingsheepRight1_36
+  - first:
+      213: -127662313143422069
+    second: flyingsheepRight1_37
+  - first:
+      213: -13817805674323869
+    second: flyingsheepRight1_38
+  - first:
+      213: 8563788813371407277
+    second: flyingsheepRight1_39
+  - first:
+      213: 1173875265077920469
+    second: flyingsheepRight1_40
+  - first:
+      213: -419332484142327235
+    second: flyingsheepRight1_41
+  - first:
+      213: -7272900359844878928
+    second: flyingsheepRight1_42
+  - first:
+      213: -5804423284410443592
+    second: flyingsheepRight1_43
+  - first:
+      213: 7354627144972848524
+    second: flyingsheepRight1_44
+  - first:
+      213: -4078590582667952972
+    second: flyingsheepRight1_45
+  - first:
+      213: 3923457530327709883
+    second: flyingsheepRight1_46
+  - first:
+      213: -4951072737737534538
+    second: flyingsheepRight1_47
+  - first:
+      213: -1326771527800201859
+    second: flyingsheepRight1_48
+  - first:
+      213: -3783306700886810404
+    second: flyingsheepRight1_49
+  - first:
+      213: 236057637274946484
+    second: flyingsheepRight1_50
+  - first:
+      213: 6430285858005633003
+    second: flyingsheepRight1_51
+  - first:
+      213: -1099652859692779086
+    second: flyingsheepRight1_52
+  - first:
+      213: 6468070401581842099
+    second: flyingsheepRight1_53
+  - first:
+      213: -3617778620085042834
+    second: flyingsheepRight1_54
+  - first:
+      213: 4551512890302393842
+    second: flyingsheepRight1_55
+  - first:
+      213: -3987745513593367669
+    second: flyingsheepRight1_56
+  - first:
+      213: -260205804736303007
+    second: flyingsheepRight1_57
+  - first:
+      213: 6661006193122179834
+    second: flyingsheepRight1_58
+  - first:
+      213: -3666805569511866781
+    second: flyingsheepRight1_59
+  - first:
+      213: -6528165662684773920
+    second: flyingsheepRight1_60
+  - first:
+      213: 4023963702867093779
+    second: flyingsheepRight1_61
+  - first:
+      213: 5359542090867272546
+    second: flyingsheepRight1_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flyingsheepRight1_0
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 519
+        width: 1745
+        height: 1337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b133179398bc96370800000000000000
+      internalID: 8316401977151009563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_1
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 715
+        width: 13
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc49533e0761ad500800000000000000
+      internalID: 421674189216650443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_2
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 693
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575547d2dc7540470800000000000000
+      internalID: 8359903347048994165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_3
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 669
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c066d5b91ca5c60800000000000000
+      internalID: 7807765777031236674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_4
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 681
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5d0c17297dc8e20800000000000000
+      internalID: 3354292846457836961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_5
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 667
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f322185d214e240800000000000000
+      internalID: 4819998209397112598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_6
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 654
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a0ada6fd4358830800000000000000
+      internalID: 4072719572201507351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_7
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 654
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec3a5e81225cc0f0800000000000000
+      internalID: -1095410305282196247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_8
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 395
+        width: 150
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc67486cc92a8c10800000000000000
+      internalID: 2056502137747631349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_9
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 625
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a621c13d8f7736bf0800000000000000
+      internalID: -332290036917857686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_10
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 622
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c16974ee4ec2170800000000000000
+      internalID: 8155144737315495030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_11
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 428
+        width: 89
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccc52e07a8d01340800000000000000
+      internalID: 4832600612177038542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_12
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 528
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40239e37e8fdd4f20800000000000000
+      internalID: 3408626295912346116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_13
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 531
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7e9e8784b422d90800000000000000
+      internalID: -7124048885908379705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_14
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 447
+        width: 89
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cae2ec11a68fb50800000000000000
+      internalID: 6627163476381838410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_15
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 525
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bb7ff8d49585cc0800000000000000
+      internalID: -3722126902358983837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_16
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 520
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079dc5876c62d6d20800000000000000
+      internalID: 3273315138032949616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_17
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 498
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb2cb5400ab7e380800000000000000
+      internalID: -8941974024788104195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 508
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38741fcf5ae1d29a0800000000000000
+      internalID: -6256310609085642877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_19
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 508
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c492ec8eb5c87a860800000000000000
+      internalID: 7541150427430922572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_20
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 493
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa37387b16d85600800000000000000
+      internalID: 457350775647451890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_21
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 482
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b326fc9f0aec9f0800000000000000
+      internalID: -446242318276478141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_22
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 472
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2be00a423e178540800000000000000
+      internalID: 5010006311811738415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_23
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 466
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4fe4ba8c41d04d0800000000000000
+      internalID: -3166852110871497560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_24
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 477
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83d13292358449d0800000000000000
+      internalID: -2790959416815266933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_25
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 481
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3896e4d9c6fc7cdf0800000000000000
+      internalID: -159931196345783933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_26
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 481
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7facb4f47af12e8a0800000000000000
+      internalID: -6277420127150683401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_27
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 465
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6511a66754376f0800000000000000
+      internalID: -688129943169575231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_28
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 472
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5193d53401866a0800000000000000
+      internalID: -6455892184322730591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_29
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 466
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d36fd910f9a8520800000000000000
+      internalID: 2705149355483348243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_30
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 466
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97856b1327789940800000000000000
+      internalID: 5303119553895958428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_31
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 471
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf8b0abcc11373f0800000000000000
+      internalID: -904359529179017253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_32
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 460
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f6754f379c2ffa0800000000000000
+      internalID: -5768326672850391237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_33
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 458
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb17e2bedbd0dbff0800000000000000
+      internalID: -18843714093944386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_34
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 454
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe802bb72b155aa0800000000000000
+      internalID: -6172997856784249156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_35
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 457
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad15f68d6e92c9f40800000000000000
+      internalID: 5736506096813560282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_36
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 461
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf1bc4244c839480800000000000000
+      internalID: -8893610614823641124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_37
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 457
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83b1e57dc37a3ef0800000000000000
+      internalID: -127662313143422069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_38
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 463
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360e43967c8eecff0800000000000000
+      internalID: -13817805674323869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_39
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 453
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab77788d80b8d670800000000000000
+      internalID: 8563788813371407277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_40
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 453
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2469985517a4010800000000000000
+      internalID: 1173875265077920469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_41
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 452
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a1aefc35b3e2af0800000000000000
+      internalID: -419332484142327235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_42
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 442
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5a2acf7a7711b90800000000000000
+      internalID: -7272900359844878928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_43
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 445
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b895b6a6cb827fa0800000000000000
+      internalID: -5804423284410443592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_44
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 396
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d4d8ffb62e01660800000000000000
+      internalID: 7354627144972848524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_45
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 446
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcb2df697fe567c0800000000000000
+      internalID: -4078590582667952972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_46
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 449
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8b38226dbe27630800000000000000
+      internalID: 3923457530327709883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_47
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 447
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b39802b3914a4bb0800000000000000
+      internalID: -4951072737737534538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_48
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 446
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ddd53335c569de0800000000000000
+      internalID: -1326771527800201859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_49
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 437
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd06941b99efe7bc0800000000000000
+      internalID: -3783306700886810404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_50
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 432
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb8a40ab25a64300800000000000000
+      internalID: 236057637274946484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_51
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 434
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7c4a23be6fc3950800000000000000
+      internalID: 6430285858005633003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_52
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 434
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9f4c1ec8f3db0f0800000000000000
+      internalID: -1099652859692779086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_53
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 440
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bef08cc2c333c950800000000000000
+      internalID: 6468070401581842099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_54
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 421
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6104d943811bcdc0800000000000000
+      internalID: -3617778620085042834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_55
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 417
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fde519dbd83a2f30800000000000000
+      internalID: 4551512890302393842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_56
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 429
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b831c97559ea8a8c0800000000000000
+      internalID: -3987745513593367669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_57
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 414
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160b2300330936cf0800000000000000
+      internalID: -260205804736303007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_58
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 415
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa79b357d5a07c50800000000000000
+      internalID: 6661006193122179834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_59
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 405
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e32d813c3ec1dc0800000000000000
+      internalID: -3666805569511866781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_60
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 416
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e185c0eaeb4765a0800000000000000
+      internalID: -6528165662684773920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_61
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 417
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319657afaadf7d730800000000000000
+      internalID: 4023963702867093779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flyingsheepRight1_62
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 415
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26be5e4b22be06a40800000000000000
+      internalID: 5359542090867272546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flyingsheepRight1_0: 8316401977151009563
+      flyingsheepRight1_1: 421674189216650443
+      flyingsheepRight1_10: 8155144737315495030
+      flyingsheepRight1_11: 4832600612177038542
+      flyingsheepRight1_12: 3408626295912346116
+      flyingsheepRight1_13: -7124048885908379705
+      flyingsheepRight1_14: 6627163476381838410
+      flyingsheepRight1_15: -3722126902358983837
+      flyingsheepRight1_16: 3273315138032949616
+      flyingsheepRight1_17: -8941974024788104195
+      flyingsheepRight1_18: -6256310609085642877
+      flyingsheepRight1_19: 7541150427430922572
+      flyingsheepRight1_2: 8359903347048994165
+      flyingsheepRight1_20: 457350775647451890
+      flyingsheepRight1_21: -446242318276478141
+      flyingsheepRight1_22: 5010006311811738415
+      flyingsheepRight1_23: -3166852110871497560
+      flyingsheepRight1_24: -2790959416815266933
+      flyingsheepRight1_25: -159931196345783933
+      flyingsheepRight1_26: -6277420127150683401
+      flyingsheepRight1_27: -688129943169575231
+      flyingsheepRight1_28: -6455892184322730591
+      flyingsheepRight1_29: 2705149355483348243
+      flyingsheepRight1_3: 7807765777031236674
+      flyingsheepRight1_30: 5303119553895958428
+      flyingsheepRight1_31: -904359529179017253
+      flyingsheepRight1_32: -5768326672850391237
+      flyingsheepRight1_33: -18843714093944386
+      flyingsheepRight1_34: -6172997856784249156
+      flyingsheepRight1_35: 5736506096813560282
+      flyingsheepRight1_36: -8893610614823641124
+      flyingsheepRight1_37: -127662313143422069
+      flyingsheepRight1_38: -13817805674323869
+      flyingsheepRight1_39: 8563788813371407277
+      flyingsheepRight1_4: 3354292846457836961
+      flyingsheepRight1_40: 1173875265077920469
+      flyingsheepRight1_41: -419332484142327235
+      flyingsheepRight1_42: -7272900359844878928
+      flyingsheepRight1_43: -5804423284410443592
+      flyingsheepRight1_44: 7354627144972848524
+      flyingsheepRight1_45: -4078590582667952972
+      flyingsheepRight1_46: 3923457530327709883
+      flyingsheepRight1_47: -4951072737737534538
+      flyingsheepRight1_48: -1326771527800201859
+      flyingsheepRight1_49: -3783306700886810404
+      flyingsheepRight1_5: 4819998209397112598
+      flyingsheepRight1_50: 236057637274946484
+      flyingsheepRight1_51: 6430285858005633003
+      flyingsheepRight1_52: -1099652859692779086
+      flyingsheepRight1_53: 6468070401581842099
+      flyingsheepRight1_54: -3617778620085042834
+      flyingsheepRight1_55: 4551512890302393842
+      flyingsheepRight1_56: -3987745513593367669
+      flyingsheepRight1_57: -260205804736303007
+      flyingsheepRight1_58: 6661006193122179834
+      flyingsheepRight1_59: -3666805569511866781
+      flyingsheepRight1_6: 4072719572201507351
+      flyingsheepRight1_60: -6528165662684773920
+      flyingsheepRight1_61: 4023963702867093779
+      flyingsheepRight1_62: 5359542090867272546
+      flyingsheepRight1_7: -1095410305282196247
+      flyingsheepRight1_8: 2056502137747631349
+      flyingsheepRight1_9: -332290036917857686
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

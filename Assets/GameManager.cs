@@ -6,12 +6,14 @@ public class GameManager : MonoBehaviour
 {
     private int balance = 100; //total player money
     [SerializeField] private float difficulty = 1.0f; //determines bleedrate and sheep speed
-    [SerializeField] private float difficultyIncreaseRate = 10; //rate at which difficulty increases
+    [SerializeField] private float difficultyIncreaseRate = 11; //rate at which difficulty increases
     [SerializeField] private float bleedRate = 5; //rate of money loss
     [SerializeField] private int sheepValue = 1; //money brought in by each sheep
     [SerializeField] private SheepSpawner sheepSpawner;
     [SerializeField] private PlayerMovement player;
     [SerializeField] private GameObject boxPrefab;
+    [SerializeField] private int max_diff = 10; 
+
 
     void Start()
     {
@@ -54,7 +56,7 @@ public class GameManager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(difficultyIncreaseRate);
-            difficulty += 1;
+            if (difficulty < max_diff) difficulty += 0.1f;
         }
     }
 

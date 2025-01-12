@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4000609440986669834}
   - component: {fileID: 6320699900280489871}
   - component: {fileID: -940199974814369206}
+  - component: {fileID: -4473912459145534530}
   m_Layer: 0
   m_Name: Sheep
   m_TagString: Untagged
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -105,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loop: 1
   movementRate: 2
-  walkSpeed: 1
+  walkSpeed: 30
   runSpeed: 1
   runChance: 0.1
   sheepSpawner: {fileID: 0}
@@ -153,6 +154,7 @@ MonoBehaviour:
   triggerDistance: 5
   moveKey: 32
   controllerButton: A
+  waitTimeMultiplier: 3
 --- !u!95 &-940199974814369206
 Animator:
   serializedVersion: 7
@@ -175,3 +177,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-4473912459145534530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6137907402022151151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5438d3be0c3b140b75ba1a3e93cae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
