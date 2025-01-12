@@ -68,4 +68,22 @@ public class AudioManager : MonoBehaviour
             soundEffectsAudio[i].volume = soundEffectsSlider.value;
         }
     }
+
+    public void ResetSound()
+    {
+        // default volumes
+        backgroundFloat = 0.5f;
+        soundEffectsFloat = 0.5f;
+
+        // match sliders
+        backgroundSlider.value = backgroundFloat;
+        soundEffectsSlider.value = soundEffectsFloat;
+
+
+        // save to PlayerPrefs + the fact that PlayerPrefs now exist
+        PlayerPrefs.SetFloat(BackgroundPref, backgroundFloat);
+        PlayerPrefs.SetFloat(SoundEffectsPref, soundEffectsFloat);
+
+        UpdateSound();
+    }
 }

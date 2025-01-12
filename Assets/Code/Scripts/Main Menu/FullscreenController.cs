@@ -6,4 +6,9 @@ public class FullscreenController : MonoBehaviour
     {
         Screen.fullScreen = isFullscreen;
     }
+
+    public void ResetFullscreen()
+    {
+        SetFullscreen(true);
+    }
 }
