@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using Unity.VisualScripting;
 using TMPro;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
@@ -82,26 +83,53 @@ public class GameManager : MonoBehaviour
     }
 
     public void gacha(float rand) {
-        string[] upgrades = {"SpeedUpgrade", "SchoolSheep", "AngelSheep", "NinjaSheep", "MusicSheep", "SherlockSheep" };
-        switch (upgrades[(int)(rand * upgrades.Length)]) {
+        List<string> upgrades = new List<string> {"SpeedUpgrade", "CaneRange", "SchoolSheep", "AngelSheep", "NinjaSheep", "MusicSheep", "SherlockSheep"};
+        switch (upgrades[(int)(rand * upgrades.Count)]) {
             case "SpeedUpgrade":
-
+                // TODO : VISUALS
+                PlayerMovement.speed *= 1.4f;
                 break;
+
+            case "CaneRange":
+                // TODO : VISUALS
+                MoveAwayFromP.triggerDistance *= 1.3f;
+                break;
+
+            case "CaneCooldown":
+                // TODO : VISUALS
+                MoveAwayFromP.cooldown *= 0.7f;
+                break;
+
             case "SchoolSheep":
-
+                // TODO : VISUALS
+                // TODO : SET SKIN
+                upgrades.Remove("SchoolSheep");
                 break;
+
             case "AngelSheep":
-
+                // TODO : VISUALS
+                // TODO : SET SKIN
+                upgrades.Remove("AngelSheep");
                 break;
+
             case "NinjaSheep":
-
+                // TODO : VISUALS
+                // TODO : SET SKIN
+                upgrades.Remove("NinjaSheep");
                 break;
+
             case "MusicSheep":
-
+                // TODO : VISUALS
+                // TODO : SET SKIN
+                upgrades.Remove("MusicSheep");
                 break;
+
             case "SherlockSheep":
-
+                // TODO : VISUALS
+                // TODO : SET SKIN
+                upgrades.Remove("SherlockSheep");
                 break;
+
             default:
                 break;
         }
