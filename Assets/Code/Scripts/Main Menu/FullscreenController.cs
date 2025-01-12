@@ -1,14 +1,20 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FullscreenController : MonoBehaviour
 {
-    public void SetFullscreen(bool isFullscreen)
+    public void ChangeFullscreen()
     {
-        Screen.fullScreen = isFullscreen;
+        Screen.fullScreen = !Screen.fullScreen;
     }
 
     public void ResetFullscreen()
     {
-        SetFullscreen(true);
+        Screen.fullScreen = true;
+
+        GameObject fullscreenToggle;
+        fullscreenToggle = GameObject.Find("FullscreenToggle");
+        fullscreenToggle.GetComponent<Toggle>().isOn = true;
     }
 }
