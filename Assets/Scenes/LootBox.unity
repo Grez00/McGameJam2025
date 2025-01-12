@@ -431,8 +431,8 @@ GameObject:
   - component: {fileID: 1297076078}
   - component: {fileID: 1297076077}
   - component: {fileID: 1297076076}
-  - component: {fileID: 1297076079}
   - component: {fileID: 1297076080}
+  - component: {fileID: 1297076081}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Untagged
@@ -479,7 +479,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 9.78, y: 9.89}
-    newSize: {x: 9.78, y: 9.89}
+    newSize: {x: 6.86, y: 6.77}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -535,7 +535,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 9.78, y: 9.89}
+  m_Size: {x: 6.86, y: 6.77}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -556,30 +556,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1297076079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297076075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b37f94dd0e5dee049a28bab165e3f906, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprite0: {fileID: -8306717139257472601, guid: f16b16dc741586744991a7064944062b, type: 3}
-  breakageSprites:
-  - {fileID: -3190992554705633285, guid: b1559dd7cd8d991469f32003d2bb96d6, type: 3}
-  - {fileID: 7596638812143943741, guid: d9e11d363afd81a458e67a80c41c9c8d, type: 3}
-  - {fileID: -7768946462888809812, guid: 489608458c74c1e4c8ffc97a1850d01b, type: 3}
-  - {fileID: -6727487080364496935, guid: be69fb3c72b2a8940a038ec457c8992d, type: 3}
-  - {fileID: -5634450955270020626, guid: edb4325412c59f34a8ef929997d1902e, type: 3}
-  - {fileID: -1344281212786297493, guid: fab35fe94f1074147850d39ef58ad195, type: 3}
-  openedSprites:
-  - {fileID: -7416686705017423735, guid: 469f17065ab2d8d45940a312bedfaf04, type: 3}
-  animator: {fileID: 0}
-  animationDuration: 1.2
 --- !u!95 &1297076080
 Animator:
   serializedVersion: 7
@@ -602,6 +578,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1297076081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297076075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b46761555b3c0746a01f6a6f24ce44a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initSprite: {fileID: 0}
+  breakageSprites: []
+  prizes:
+  - rid: -2
+  - rid: -2
+  animationDuration: 0.5
+  rewardSprite: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
