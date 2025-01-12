@@ -80,4 +80,30 @@ public class GameManager : MonoBehaviour
     {
 
     }
+
+    public void gacha(float rand) {
+        string[] upgrades = {"SpeedUpgrade", "SchoolSheep", "AngelSheep", "NinjaSheep", "MusicSheep", "SherlockSheep" };
+        switch (upgrades[(int)(rand * upgrades.Length)]) {
+            case "SpeedUpgrade":
+
+                break;
+            case "SchoolSheep":
+
+                break;
+            case "AngelSheep":
+
+                break;
+            case "NinjaSheep":
+
+                break;
+            case "MusicSheep":
+
+                break;
+            case "SherlockSheep":
+
+                break;
+            default:
+                break;
+        }
+    }
 }
