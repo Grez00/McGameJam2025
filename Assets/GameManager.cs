@@ -4,12 +4,14 @@ using Unity.VisualScripting;
 
 public class GameManager : MonoBehaviour
 {
-    private int Balance = 100; //total player money
+    private int balance = 100; //total player money
     [SerializeField] private float difficulty = 1.0f; //determines bleedrate and sheep speed
     [SerializeField] private float difficultyIncreaseRate = 11; //rate at which difficulty increases
     [SerializeField] private float bleedRate = 5; //rate of money loss
     [SerializeField] private int sheepValue = 1; //money brought in by each sheep
     [SerializeField] private SheepSpawner sheepSpawner;
+    [SerializeField] private PlayerMovement player;
+    [SerializeField] private GameObject boxPrefab;
     [SerializeField] private int max_diff = 10; 
 
 
@@ -22,6 +24,17 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         bleedRate = difficulty + 4;
+
+        if (Input.GetKey(KeyCode.F))
+        {
+            Debug.Log("F Pressed");
+            if (balance > 50)
+            {
+                balance -= 50;
+                GameObject lootBox = Instantiate(boxPrefab, Vector3.zero, Quaternion.identity);
+                lootBox.GetComponentInChildren<Crate>().manager = this;
+            }
+        }
     }
 
     //updates balance based on income
@@ -31,8 +44,8 @@ public class GameManager : MonoBehaviour
         {
             yield return new WaitForSeconds(1);
             int income = (int)(-bleedRate + (sheepSpawner.GetSheepCount() * sheepValue));
-            Balance = Balance + income;
-            Debug.Log("Cash: " + Balance);
+            balance = balance + income;
+            Debug.Log("Cash: " + balance);
             Debug.Log("Income: " + income);
         }
     }
@@ -50,5 +63,25 @@ public class GameManager : MonoBehaviour
     public float getDifficulty()
     {
         return difficulty;
+    }
+
+    public void prizeReceived(int prizeNum)
+    {
+        Debug.Log("Upgrade Recieved");
+        if (prizeNum == 0)
+        {
+            Debug.Log("Speed Increased");
+            player.speed += 2;
+        }
+        else if (prizeNum == 1)
+        {
+            Debug.Log("Difficulty Decreased");
+            difficulty -= 2;
+        }
+        else
+        {
+            Debug.Log("Rent Decreased");
+            bleedRate -= 2;
+        }
     }
 }

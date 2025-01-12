@@ -1,5 +1,6 @@
 
 
+
 using System.Collections;
 using UnityEngine;
 
@@ -14,19 +15,21 @@ public class MoveAwayFromP : MonoBehaviour
     public string controllerButton = "Jump";
     private SheepMovement movement;
     private float lastHit = -1f; // Stores the time of the last hit
-    private float cooldown = 1f; // Minimum time between hits
+    private float cooldown = 1f; // Minimum time    between hits
     // Multiplier for the wait time after hitting the sheep
     public float waitTimeMultiplier = 3f;
+    private Rigidbody2D rb;
 
     IEnumerator HitSheep()
     {
         Vector2 directionAway = (transform.position - player.position).normalized;
+        Debug.Log("Sheep hit!");
         movement.loop = false;
-        movement.setSheepVelocity(directionAway, movement.runSpeed);
-        yield return new WaitForSeconds(movement.movementRate * waitTimeMultiplier);
+        rb.linearVelocity = directionAway * movement.runSpeed;
+        yield return new WaitForSeconds(waitTimeMultiplier * movement.movementRate);
         movement.loop = true;
+        Debug.Log("Sheep moving again");
     }
-
 
     void Start()
     {
@@ -62,30 +65,27 @@ public class MoveAwayFromP : MonoBehaviour
         }
 
         movement = GetComponent<SheepMovement>();
-        Debug.Log("Hello I'm here and the movement is " + movement);
+        rb = GetComponent<Rigidbody2D>();
         if (movement == null) Debug.LogError("No movement component found!");
-
+        if (rb == null) Debug.LogError("No Rigidbody2D component found!");
     }
 
     void Update()
     {
         if (player == null) return; // Avoid null reference errors
 
-        Vector2 directionAway = Vector2.zero;
-        if (Input.GetKey(moveKey) || Input.GetButtonDown("Jump")) // Check if the move key or controller button is pressed
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        if (distanceToPlayer < triggerDistance)
         {
-            if (Time.time - lastHit > cooldown)
+            if (Input.GetKey(moveKey) || Input.GetButtonDown("Jump")) // Check if the move key or controller button is pressed
             {
-
-                lastHit = Time.time;
-
-                float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-                directionAway = (transform.position - player.position).normalized;
-
-                if (distanceToPlayer < triggerDistance)
+                if (Time.time - lastHit > cooldown)
                 {
+                    lastHit = Time.time;
+
+                    Vector2 directionAway = (transform.position - player.position).normalized;
+
                     StartCoroutine(HitSheep());
-                    // transform.position = (Vector2)transform.position + directionAway * moveSpeed * Time.deltaTime;
                     if (spawnPoint != null)
                     {
                         SheepSpawner sheepSpawner = spawnPoint.GetComponent<SheepSpawner>();
@@ -95,25 +95,11 @@ public class MoveAwayFromP : MonoBehaviour
                             else Debug.LogError("GameManager is not initialized.");
 
                             Debug.Log("Sheep returned to pen");
-                            movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
+                            rb.linearVelocity = directionAway * moveSpeed;
                         }
                     }
                 }
-                else
-                {
-                    Debug.LogError("GameManager is not initialized.");
-                }
-                Debug.Log("Sheep returned to pen");
-                if (movement == null) Debug.LogError("No movement component found at move time!");
-                movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
-
             }
-
-
-
         }
     }
 }
-
-
-
