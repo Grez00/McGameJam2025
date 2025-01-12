@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using Unity.VisualScripting;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int sheepValue = 1; //money brought in by each sheep
     [SerializeField] private SheepSpawner sheepSpawner;
     [SerializeField] private int max_diff = 10; 
+    public TextMeshProUGUI balanceText;
 
 
     void Start()
@@ -22,6 +24,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         bleedRate = difficulty + 4;
+        balanceText.text = "$" + Balance;
     }
 
     //updates balance based on income
@@ -50,5 +53,13 @@ public class GameManager : MonoBehaviour
     public float getDifficulty()
     {
         return difficulty;
+    }
+
+    public int updateBalance(){
+        Balance += sheepValue;
+        return Balance;
+    }
+    public int getBalance(){
+        return Balance;
     }
 }
