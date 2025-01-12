@@ -1,33 +1,36 @@
-
-
-
 using System.Collections;
 using UnityEngine;
 
 public class MoveAwayFromP : MonoBehaviour
 {
     private Transform player;
+    private PlayerMovement playerMovement;
     private Transform spawnPoint;
     private GameManager gameManager;
     public float moveSpeed = 1f;
-    public float triggerDistance = 5f;
+    public float triggerDistance = 1.5f;
     public KeyCode moveKey = KeyCode.Space;
     public string controllerButton = "Jump";
     private SheepMovement movement;
     private float lastHit = -1f; // Stores the time of the last hit
     private float cooldown = 1f; // Minimum time    between hits
     // Multiplier for the wait time after hitting the sheep
-    public float waitTimeMultiplier = 3f;
+    public float waitTimeMultiplier = 1.25f;
     private Rigidbody2D rb;
 
     IEnumerator HitSheep()
     {
         Vector2 directionAway = (transform.position - player.position).normalized;
+
         Debug.Log("Sheep hit!");
         movement.loop = false;
-        rb.linearVelocity = directionAway * movement.runSpeed;
-        yield return new WaitForSeconds(waitTimeMultiplier * movement.movementRate);
+
+        rb.linearVelocity = playerMovement.getMovementDirection() * 4;
+        yield return new WaitForSeconds(waitTimeMultiplier);
+
+        rb.linearVelocity = Vector2.zero;
         movement.loop = true;
+
         Debug.Log("Sheep moving again");
     }
 
@@ -38,6 +41,7 @@ public class MoveAwayFromP : MonoBehaviour
         if (playerObject != null)
         {
             player = playerObject.transform; // Assign the player's Transform
+            playerMovement = playerObject.GetComponent<PlayerMovement>();
         }
         else
         {
@@ -86,6 +90,7 @@ public class MoveAwayFromP : MonoBehaviour
                     Vector2 directionAway = (transform.position - player.position).normalized;
 
                     StartCoroutine(HitSheep());
+                    /*
                     if (spawnPoint != null)
                     {
                         SheepSpawner sheepSpawner = spawnPoint.GetComponent<SheepSpawner>();
@@ -98,6 +103,7 @@ public class MoveAwayFromP : MonoBehaviour
                             rb.linearVelocity = directionAway * moveSpeed;
                         }
                     }
+                    */
                 }
             }
         }

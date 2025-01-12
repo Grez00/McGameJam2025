@@ -38,4 +38,9 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.linearVelocity = movementDirection * speed;
     }
+
+    public Vector2 getMovementDirection()
+    {
+        return movementDirection;
+    }
 }

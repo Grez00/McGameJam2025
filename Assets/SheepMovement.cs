@@ -13,6 +13,7 @@ public class SheepMovement : MonoBehaviour
     public SheepSpawner sheepSpawner;
     public GameManager manager;
     private int currentDirection;
+    public GameObject sheepInstance;
     Animator animator;
 
     void Start()
@@ -21,35 +22,39 @@ public class SheepMovement : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         StartCoroutine(SheepMove());
-        
     }
 
     //randomly determines how sheep will move
-    IEnumerator SheepMove()
+    public IEnumerator SheepMove()
     {
-        while (loop)
+        while (true)
         {
-            if (Random.value <= runChance)
+            if (loop)
             {
-                RunAway();
-                loop = false;
-            }
-            else if (Random.value < .85) {
-                Wander();
-            }
-            else{
-                Wait();
+                Debug.Log("Changing Movement");
+                if (Random.value <= runChance)
+                {
+                    RunAway();
+                }
+                else if (Random.value < .85) {
+                    Wander();
+                }
+                else{
+                    Wait();
+                }
             }
             yield return new WaitForSeconds(movementRate);
         }
     }
 
-    //checks if sheep is lost. increments runSpeed and runChance based on difficulty
+    //checks if sheep has been returned to pen. increments runSpeed and runChance based on difficulty
     void Update()
     {
-        if (Vector2.Distance(transform.position, Vector2.zero) > sheepSpawner.GetRadius())
+        if (Vector2.Distance(transform.position, sheepSpawner.transform.position) < sheepSpawner.GetRadius())
         {
-            sheepSpawner.SheepLost(sheep.gameObject);
+            sheepSpawner.SheepLost(this.gameObject);
+            this.gameObject.SetActive(false);
+            manager.UpdateBalance();
         }
 
         runSpeed = manager.getDifficulty() + 1;
