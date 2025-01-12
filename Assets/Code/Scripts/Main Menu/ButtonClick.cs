@@ -8,16 +8,11 @@ using UnityEngine.SceneManagement;
 public class ButtonClick : MonoBehaviour
 {
     public string _newGameLevel;
-<<<<<<< Updated upstream
-    public static int song = 0;
-    public AudioSource audioss;
-=======
 
     private bool altMusicBool = false;
     public AudioSource musicReg;
     public AudioSource musicAlt;
     
->>>>>>> Stashed changes
     public void NewGame ()
     {
         SceneManager.LoadScene(_newGameLevel);

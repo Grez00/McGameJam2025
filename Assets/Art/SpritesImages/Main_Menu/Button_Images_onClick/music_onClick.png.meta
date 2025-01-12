@@ -559,7 +559,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      music_onClick_0: -5918264812073898860
+      music_onClick_1: 1126307913294735547
+      music_onClick_10: -9216194190830259588
+      music_onClick_11: 4143205049679628067
+      music_onClick_12: 4501592035883020717
+      music_onClick_13: 802281459561098636
+      music_onClick_14: 8944868507867974011
+      music_onClick_15: 6563199651154596765
+      music_onClick_16: 669558909108569824
+      music_onClick_17: 4785636759367333027
+      music_onClick_2: 6110119613167739322
+      music_onClick_3: 5327717760417506879
+      music_onClick_4: -736820522880284994
+      music_onClick_5: -3670459129828580298
+      music_onClick_6: 2098414968882098056
+      music_onClick_7: 687019896018512969
+      music_onClick_8: 8182584639996663367
+      music_onClick_9: 5325002542996306503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -559,7 +559,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      music_static_0: 8597379311572966351
+      music_static_1: 3755661075461785356
+      music_static_10: 9094500372585718854
+      music_static_11: 2333947311132180716
+      music_static_12: 5009030776436185399
+      music_static_13: 5429061217749606749
+      music_static_14: -8203986531198386215
+      music_static_15: 1338598507116689567
+      music_static_16: -3944371136358151054
+      music_static_17: 7591710083008381723
+      music_static_2: 148049768366898218
+      music_static_3: -2616412584339218179
+      music_static_4: 7454700132301043638
+      music_static_5: -1951017899916897871
+      music_static_6: 8112916162633116849
+      music_static_7: 7705937473234036997
+      music_static_8: 2092243993877762775
+      music_static_9: -8214715789154544157
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
