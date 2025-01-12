@@ -51,4 +51,12 @@ public class GameManager : MonoBehaviour
     {
         return difficulty;
     }
+
+    public int updateBalance(){
+        Balance += sheepValue;
+        return Balance;
+    }
+    public int getBalance(){
+        return Balance;
+    }
 }
