@@ -6,18 +6,18 @@ public class GameManager : MonoBehaviour
 {
     private int balance = 100; //total player money
     [SerializeField] private float difficulty = 1.0f; //determines bleedrate and sheep speed
-    [SerializeField] private float difficultyIncreaseRate = 11; //rate at which difficulty increases
+    [SerializeField] private float difficultyIncreaseRate = 10; //rate at which difficulty increases
     [SerializeField] private float bleedRate = 5; //rate of money loss
-    [SerializeField] private int sheepValue = 1; //money brought in by each sheep
+    [SerializeField] private int sheepValue = 25; //money brought in by each sheep
     [SerializeField] private SheepSpawner sheepSpawner;
     [SerializeField] private PlayerMovement player;
     [SerializeField] private GameObject boxPrefab;
-    [SerializeField] private int max_diff = 10; 
+    [SerializeField] private int max_diff = 10;
 
 
     void Start()
     {
-        StartCoroutine(UpdateMoney());
+        StartCoroutine(RentDrain());
         StartCoroutine(Bleed());
     }
 
@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKey(KeyCode.F))
         {
             Debug.Log("F Pressed");
-            if (balance > 50)
+            if (balance >= 50)
             {
                 balance -= 50;
                 GameObject lootBox = Instantiate(boxPrefab, Vector3.zero, Quaternion.identity);
@@ -38,15 +38,13 @@ public class GameManager : MonoBehaviour
     }
 
     //updates balance based on income
-    public IEnumerator UpdateMoney()
+    public IEnumerator RentDrain()
     {
         while (true)
         {
-            yield return new WaitForSeconds(1);
-            int income = (int)(-bleedRate + (sheepSpawner.GetSheepCount() * sheepValue));
-            balance = balance + income;
+            yield return new WaitForSeconds(2);
+            //balance -= (int) bleedRate;
             Debug.Log("Cash: " + balance);
-            Debug.Log("Income: " + income);
         }
     }
 
@@ -58,6 +56,12 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(difficultyIncreaseRate);
             if (difficulty < max_diff) difficulty += 0.1f;
         }
+    }
+
+    public void UpdateMoney()
+    {
+        balance += sheepValue;
+        Debug.Log("Cash: " + balance);
     }
 
     public float getDifficulty()
