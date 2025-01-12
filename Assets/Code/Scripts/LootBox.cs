@@ -19,6 +19,7 @@ public class Crate : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 0;
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         spriteRenderer.sprite = initSprite;
@@ -35,8 +36,6 @@ public class Crate : MonoBehaviour
 
     public void clicked()
     {
-        Debug.Log("CLICKED");
-
         if (isAnimating) return;
 
         else
@@ -58,7 +57,7 @@ public class Crate : MonoBehaviour
 
         animator.SetTrigger("BreakTrigger");
 
-        yield return new WaitForSeconds(animationDuration);
+        yield return new WaitForSecondsRealtime(animationDuration);
 
         breakage++;
 
@@ -71,11 +70,13 @@ public class Crate : MonoBehaviour
 
         animator.SetTrigger("OpenTrigger");
 
-        yield return new WaitForSeconds(animationDuration);
+        yield return new WaitForSecondsRealtime(animationDuration);
 
-        Sprite prizeSprite = prizes[Random.Range(0, prizes.Length)];
+        int rand = Random.Range(0, prizes.Length);
+        Sprite prizeSprite = prizes[rand];
         spriteRenderer.sprite = prizeSprite;
-        manager.prizeReceived();
-        this.gameObject.SetActive(false);
+        manager.gacha(rand);
+
+        Time.timeScale = 1;
     }
 }
