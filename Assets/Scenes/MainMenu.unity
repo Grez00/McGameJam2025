@@ -758,6 +758,7 @@ MonoBehaviour:
   soundEffectsSlider: {fileID: 6548159787113642265}
   backgroundAudio:
   - {fileID: 56269160}
+  - {fileID: 1766169965}
   soundEffectsAudio: []
 --- !u!1 &455839407
 GameObject:
@@ -4070,15 +4071,15 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766169963}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 79a80fd2d2b1bab44b2cd4fa9d9da4cc, type: 3}
-  m_Resource: {fileID: 8300000, guid: 79a80fd2d2b1bab44b2cd4fa9d9da4cc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b98629a6a9cbd9842abc44e0470f1aed, type: 3}
+  m_Resource: {fileID: 8300000, guid: b98629a6a9cbd9842abc44e0470f1aed, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

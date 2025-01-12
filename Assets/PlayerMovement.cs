@@ -74,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.linearVelocity = movementDirection * speed;
+        rb.linearVelocity = movementDirection.normalized * speed;
     }
 
     public Vector2 getMovementDirection()

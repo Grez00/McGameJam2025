@@ -3,6 +3,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -49,6 +50,7 @@ public class GameManager : MonoBehaviour
         }
         balanceText.text = "$" + balance;
 
+        Debug.Log("Balance: " + balance);
         if (balance < 0)
         {
             gameOver();
@@ -97,7 +99,7 @@ public class GameManager : MonoBehaviour
 
     public void gameOver()
     {
-
+        SceneManager.LoadScene (sceneName:"MetaEndScreen");
     }
 
     public void gameEnd()
