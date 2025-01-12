@@ -758,6 +758,7 @@ MonoBehaviour:
   soundEffectsSlider: {fileID: 6548159787113642265}
   backgroundAudio:
   - {fileID: 56269160}
+  - {fileID: 1766169965}
   soundEffectsAudio: []
 --- !u!1 &455839407
 GameObject:
