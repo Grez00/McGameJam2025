@@ -6,11 +6,6 @@ public class Cloud : MonoBehaviour
     public float speed = 2f;
     public Vector3 startPosition = new Vector3(25f, 25f, 0f);
 
-    void OnEnable()
-{
-    startPosition = transform.position;
-}
-
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
