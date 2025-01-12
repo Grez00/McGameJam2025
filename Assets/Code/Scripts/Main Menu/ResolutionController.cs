@@ -23,7 +23,8 @@ public class ResolutionController : MonoBehaviour
 
         for (int i = 0; i < resolutions.Length; i++)
         {
-            if ((float)resolutions[i].refreshRateRatio.value == currentRefreshRate) 
+            if ((float)resolutions[i].refreshRateRatio.value == currentRefreshRate
+                && (long)resolutions[i].width * Screen.currentResolution.height == (long)Screen.currentResolution.width * resolutions[i].height) 
             {
                 filteredResolutions.Add(resolutions[i]);
             }
