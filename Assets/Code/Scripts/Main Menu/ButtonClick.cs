@@ -10,7 +10,7 @@ public class ButtonClick : MonoBehaviour
     private static readonly string AltMusicPref = "AltMusicPref";
     public string _newGameLevel;
 
-    private int altMusicBool = 0;
+    private int altMusicBool;
     public AudioSource musicReg;
     public AudioSource musicAlt;
     

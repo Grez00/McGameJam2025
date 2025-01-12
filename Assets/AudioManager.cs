@@ -6,6 +6,7 @@ public class AudioManager : MonoBehaviour
     private static readonly string FirstPlay = "FirstPlay";
     private static readonly string BackgroundPref = "BackgroundPref";
     private static readonly string SoundEffectsPref = "SoundEffectspref";
+    private static readonly string AltMusicPref = "AltMusicPref";
     private int firstPlayInt;
     public Slider backgroundSlider, soundEffectsSlider;
     private float backgroundFloat, soundEffectsFloat;
@@ -30,6 +31,7 @@ public class AudioManager : MonoBehaviour
             PlayerPrefs.SetFloat(BackgroundPref, backgroundFloat);
             PlayerPrefs.SetFloat(SoundEffectsPref, soundEffectsFloat);
             PlayerPrefs.SetInt(FirstPlay, -1);
+            PlayerPrefs.SetInt(AltMusicPref, 0);
         }
         else {
             backgroundFloat = PlayerPrefs.GetFloat(BackgroundPref);
