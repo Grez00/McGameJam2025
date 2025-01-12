@@ -1,10 +1,11 @@
 using UnityEngine;
 using System.Collections;
 using Unity.VisualScripting;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    private int balance = 100; //total player money
+    private int Balance = 100; //total player money
     [SerializeField] private float difficulty = 1.0f; //determines bleedrate and sheep speed
     [SerializeField] private float difficultyIncreaseRate = 10; //rate at which difficulty increases
     [SerializeField] private float bleedRate = 5; //rate of money loss
@@ -13,6 +14,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private PlayerMovement player;
     [SerializeField] private GameObject boxPrefab;
     [SerializeField] private int max_diff = 10;
+    public TextMeshProUGUI balanceText;
 
 
     void Start()
@@ -35,6 +37,7 @@ public class GameManager : MonoBehaviour
                 lootBox.GetComponentInChildren<Crate>().manager = this;
             }
         }
+        balanceText.text = "$" + Balance;
     }
 
     //updates balance based on income
@@ -43,7 +46,7 @@ public class GameManager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(2);
-            //balance -= (int) bleedRate;
+            balance -= (int) bleedRate;
             Debug.Log("Cash: " + balance);
         }
     }
@@ -69,23 +72,11 @@ public class GameManager : MonoBehaviour
         return difficulty;
     }
 
-    public void prizeReceived(int prizeNum)
-    {
-        Debug.Log("Upgrade Recieved");
-        if (prizeNum == 0)
-        {
-            Debug.Log("Speed Increased");
-            player.speed += 2;
-        }
-        else if (prizeNum == 1)
-        {
-            Debug.Log("Difficulty Decreased");
-            difficulty -= 2;
-        }
-        else
-        {
-            Debug.Log("Rent Decreased");
-            bleedRate -= 2;
-        }
+    public int updateBalance(){
+        Balance += sheepValue;
+        return Balance;
+    }
+    public int getBalance(){
+        return Balance;
     }
 }

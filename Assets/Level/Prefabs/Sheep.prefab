@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4000609440986669834}
   - component: {fileID: 6320699900280489871}
   - component: {fileID: -940199974814369206}
-  - component: {fileID: -4473912459145534530}
+  - component: {fileID: -4746343611985829359}
   m_Layer: 0
   m_Name: Sheep
   m_TagString: Untagged
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loop: 1
   movementRate: 2
-  walkSpeed: 30
+  walkSpeed: 1
   runSpeed: 1
   runChance: 0.1
   sheepSpawner: {fileID: 0}
@@ -135,7 +135,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
@@ -178,7 +178,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-4473912459145534530
+--- !u!114 &-4746343611985829359
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

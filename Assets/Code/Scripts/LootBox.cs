@@ -1,15 +1,15 @@
 using System.Collections;
 using System.Security.Cryptography;
+using System.Xml.Serialization;
 using UnityEngine;
 
 public class Crate : MonoBehaviour
 {
     [SerializeField] private Sprite initSprite;
     [SerializeField] private Sprite[] breakageSprites;
-    [SerializeField] private Sprite[] prizes;
-    [SerializeField] private float animationDuration;
+    [SerializeReference] private LootBoxReward[] prizes = new LootBoxReward[2];
+    [SerializeField] private float animationDuration = 0.5f;
     [SerializeField] private SpriteRenderer rewardSprite;
-    public GameManager manager;
 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -19,12 +19,22 @@ public class Crate : MonoBehaviour
 
     void Start()
     {
-        Time.timeScale = 0.0f;
+        prizes[0] = new FreeCat();
+        prizes[1] = new Cat2();
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         spriteRenderer.sprite = initSprite;
     }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            clicked();
+        }
+    }
+
 
     public void clicked()
     {
@@ -34,7 +44,7 @@ public class Crate : MonoBehaviour
 
         else
         {
-            if (breakage < 6)
+            if (breakage < 3)
             {
                 StartCoroutine(Breakage());
             }
@@ -51,7 +61,7 @@ public class Crate : MonoBehaviour
 
         animator.SetTrigger("BreakTrigger");
 
-        yield return new WaitForSecondsRealtime(animationDuration);
+        yield return new WaitForSeconds(animationDuration);
 
         breakage++;
 
@@ -64,12 +74,11 @@ public class Crate : MonoBehaviour
 
         animator.SetTrigger("OpenTrigger");
 
-        yield return new WaitForSecondsRealtime(animationDuration);
+        yield return new WaitForSeconds(animationDuration);
 
-        int prizeNum = Random.Range(0, prizes.Length);
-        spriteRenderer.sprite = prizes[prizeNum];
-        manager.prizeReceived(prizeNum);
-
-        Time.timeScale = 1.0f;
+        LootBoxReward prize = prizes[Random.Range(0, prizes.Length)];
+        rewardSprite.sprite = prize.getSprite();
+        prize.received();
+        this.gameObject.SetActive(false);
     }
 }

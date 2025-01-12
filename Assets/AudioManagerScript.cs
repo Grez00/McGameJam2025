@@ -6,6 +6,7 @@ public class AudioManagerScript : MonoBehaviour
     public AudioClip gameBackground;
     private void Start() {
         musicSource.clip = gameBackground;
+        musicSource.loop = true;
         musicSource.Play();
     }
 }

@@ -8,12 +8,9 @@ public interface LootBoxReward
 
 public class FreeCat : LootBoxReward
 {
-    public PlayerMovement player;
-
     public void received()
     {
         Debug.Log("Yippee!");
-        player.speed += 2f;
     }
 
     public Sprite getSprite()
@@ -27,7 +24,6 @@ public class Cat2 : LootBoxReward
     public void received()
     {
         Debug.Log("Yay!");
-
     }
 
     public Sprite getSprite()
