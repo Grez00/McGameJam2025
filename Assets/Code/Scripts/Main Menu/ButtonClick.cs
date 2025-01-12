@@ -43,7 +43,7 @@ public class ButtonClick : MonoBehaviour
             musicReg.enabled = false;
             musicAlt.enabled = true;
         }
-        else
+        else if (altMusicBool == 0)
         {
             musicAlt.enabled = false;
             musicReg.enabled = true;
