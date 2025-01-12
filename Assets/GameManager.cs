@@ -49,6 +49,7 @@ public class GameManager : MonoBehaviour
         }
         balanceText.text = "$" + balance;
 
+        Debug.Log("Balance: " + balance);
         if (balance < 0)
         {
             gameOver();
