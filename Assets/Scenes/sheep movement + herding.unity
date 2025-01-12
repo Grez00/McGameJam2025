@@ -132108,7 +132108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sheepPrefab: {fileID: 6137907402022151151, guid: a6eda91fad10f814eb1abdc6e101751e, type: 3}
-  spawnRate: 2
+  spawnRate: 1
   safeRadius: 2
   manager: {fileID: 0}
 --- !u!212 &1449699699
@@ -132242,12 +132242,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   difficulty: 1
-  difficultyIncreaseRate: 5
+  difficultyIncreaseRate: 8
   bleedRate: 5
-  sheepValue: 1
+  sheepValue: 25
   sheepSpawner: {fileID: 1449699698}
   player: {fileID: 0}
-  boxPrefab: {fileID: 0}
+  mainCamera: {fileID: 434285800}
+  boxPrefab: {fileID: 4146151017660310425, guid: fc06d196a60a92e4995762d1f115ded9, type: 3}
   max_diff: 10
   balanceText: {fileID: 1381157423}
 --- !u!4 &1467044815

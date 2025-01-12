@@ -8,11 +8,12 @@ public class GameManager : MonoBehaviour
 {
     private int balance = 100; //total player money
     [SerializeField] private float difficulty = 1.0f; //determines bleedrate and sheep speed
-    [SerializeField] private float difficultyIncreaseRate = 10; //rate at which difficulty increases
+    [SerializeField] private float difficultyIncreaseRate = 8; //rate at which difficulty increases
     [SerializeField] private float bleedRate = 5; //rate of money loss
     [SerializeField] private int sheepValue = 25; //money brought in by each sheep
     [SerializeField] private SheepSpawner sheepSpawner;
     [SerializeField] private PlayerMovement player;
+    [SerializeField] private Transform mainCamera;
     [SerializeField] private GameObject boxPrefab;
     [SerializeField] private int max_diff = 10;
     public TextMeshProUGUI balanceText;
@@ -36,12 +37,12 @@ public class GameManager : MonoBehaviour
             Debug.Log("F Pressed");
             if (balance >= 50)
             {
-                balance -= 50;
-                GameObject lootBox = Instantiate(boxPrefab, Vector3.zero, Quaternion.identity);
+                //balance -= 50;
+                //GameObject lootBox = Instantiate(boxPrefab, new Vector3(mainCamera.position.x, mainCamera.position.y, -2), Quaternion.identity);
                 //lootBox.GetComponentInChildren<Crate>().manager = this;
             }
         }
-        //balanceText.text = "$" + balance;
+        balanceText.text = "$" + balance;
 
         if (balance < 0)
         {
@@ -60,7 +61,6 @@ public class GameManager : MonoBehaviour
         {
             yield return new WaitForSeconds(2);
             balance -= (int) bleedRate;
-            Debug.Log("Cash: " + balance);
         }
     }
 
@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(difficultyIncreaseRate);
-            if (difficulty < max_diff) difficulty += 0.1f;
+            if (difficulty < max_diff) difficulty += 0.5f;
         }
     }
 
@@ -81,7 +81,6 @@ public class GameManager : MonoBehaviour
 
     public int UpdateBalance(){
         balance += sheepValue;
-        Debug.Log("Cash: " + balance);
         return balance;
     }
 
@@ -99,9 +98,10 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void gacha(float rand) {
-        List<string> upgrades = new List<string> {"SpeedUpgrade", "CaneRange", "SchoolSheep", "AngelSheep", "NinjaSheep", "MusicSheep", "SherlockSheep"};
-        switch (upgrades[(int)(rand * upgrades.Count)]) {
+    public void gacha(int rand) {
+        List<string> upgrades = new List<string> {"SchoolSheep", "AngelSheep", "NinjaSheep", "MusicSheep", "SherlockSheep"};
+        switch (upgrades[rand]) {
+            /*
             case "SpeedUpgrade":
                 // TODO : VISUALS
                 PlayerMovement.speed *= 1.4f;
@@ -116,7 +116,7 @@ public class GameManager : MonoBehaviour
                 // TODO : VISUALS
                 MoveAwayFromP.cooldown *= 0.7f;
                 break;
-
+            */
             case "SchoolSheep":
                 // TODO : VISUALS
                 // TODO : SET SKIN

@@ -22,16 +22,14 @@ public class MoveAwayFromP : MonoBehaviour
     {
         Vector2 directionAway = (transform.position - player.position).normalized;
 
-        Debug.Log("Sheep hit!");
         movement.loop = false;
 
-        rb.linearVelocity = playerMovement.getMovementDirection() * playerMovement.speed;
+        rb.linearVelocity = playerMovement.getMovementDirection() * 5f;
         yield return new WaitForSeconds(waitTimeMultiplier);
 
         rb.linearVelocity = Vector2.zero;
         movement.loop = true;
 
-        Debug.Log("Sheep moving again");
     }
 
     void Start()
@@ -90,20 +88,6 @@ public class MoveAwayFromP : MonoBehaviour
                     Vector2 directionAway = (transform.position - player.position).normalized;
 
                     StartCoroutine(HitSheep());
-                    /*
-                    if (spawnPoint != null)
-                    {
-                        SheepSpawner sheepSpawner = spawnPoint.GetComponent<SheepSpawner>();
-                        if (sheepSpawner != null && Vector2.Distance(transform.position, spawnPoint.position) < sheepSpawner.GetRadius())
-                        {
-                            if (gameManager != null) gameManager.UpdateMoney();
-                            else Debug.LogError("GameManager is not initialized.");
-
-                            Debug.Log("Sheep returned to pen");
-                            rb.linearVelocity = directionAway * moveSpeed;
-                        }
-                    }
-                    */
                 }
             }
         }

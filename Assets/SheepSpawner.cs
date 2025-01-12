@@ -6,9 +6,9 @@ public class SheepSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject sheepPrefab;
     //rate at which new sheep are created
-    [SerializeField] private int spawnRate = 2;
+    [SerializeField] private float spawnRate = 1f;
     //radius in which sheep create money
-    [SerializeField] private float safeRadius = 0.5f;
+    [SerializeField] private float safeRadius = 2f;
     //list of existing sheep safe radius
     private List<GameObject> sheep = new List<GameObject>();
     private Transform[] spawnPoints;

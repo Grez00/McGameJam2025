@@ -31,7 +31,6 @@ public class SheepMovement : MonoBehaviour
         {
             if (loop)
             {
-                Debug.Log("Changing Movement");
                 if (Random.value <= runChance)
                 {
                     RunAway();
@@ -47,7 +46,7 @@ public class SheepMovement : MonoBehaviour
         }
     }
 
-    //checks if sheep has been returned to pen. increments runSpeed and runChance based on difficulty
+    //checks if sheep has been returned to pen.
     void Update()
     {
         if (Vector2.Distance(transform.position, sheepSpawner.transform.position) < sheepSpawner.GetRadius())
@@ -56,11 +55,6 @@ public class SheepMovement : MonoBehaviour
             this.gameObject.SetActive(false);
             manager.UpdateBalance();
         }
-
-        runSpeed = manager.getDifficulty() + 1;
-        runChance = manager.getDifficulty() * .1f;
-
-        //if the speed exceeds a threshold, the sheep feet moves faster
     }
 
     private int getNewDirection()
