@@ -73,9 +73,10 @@ public class Crate : MonoBehaviour
 
         yield return new WaitForSeconds(animationDuration);
 
-        Sprite prizeSprite = prizes[Random.Range(0, prizes.Length)];
+        int rand = Random.Range(0, prizes.Length);
+        Sprite prizeSprite = prizes[rand];
         spriteRenderer.sprite = prizeSprite;
-        manager.prizeReceived();
+        manager.gacha(rand);
         this.gameObject.SetActive(false);
     }
 }

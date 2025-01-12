@@ -25,7 +25,7 @@ public class MoveAwayFromP : MonoBehaviour
         Debug.Log("Sheep hit!");
         movement.loop = false;
 
-        rb.linearVelocity = playerMovement.getMovementDirection() * 4;
+        rb.linearVelocity = playerMovement.getMovementDirection() * playerMovement.speed;
         yield return new WaitForSeconds(waitTimeMultiplier);
 
         rb.linearVelocity = Vector2.zero;

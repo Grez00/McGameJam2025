@@ -15,10 +15,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject boxPrefab;
     [SerializeField] private int max_diff = 10;
     public TextMeshProUGUI balanceText;
+    private float startTime;
+    private float gameDuration = 500f;
 
 
     void Start()
     {
+        startTime = Time.time;
         StartCoroutine(RentDrain());
         StartCoroutine(Bleed());
     }
@@ -37,7 +40,16 @@ public class GameManager : MonoBehaviour
                 //lootBox.GetComponentInChildren<Crate>().manager = this;
             }
         }
-        balanceText.text = "$" + balance;
+        //balanceText.text = "$" + balance;
+
+        if (balance < 0)
+        {
+            gameOver();
+        }
+        else if ((Time.time - startTime) >= gameDuration)
+        {
+            gameEnd();
+        }
     }
 
     //updates balance based on income
@@ -76,7 +88,12 @@ public class GameManager : MonoBehaviour
         return balance;
     }
 
-    public void prizeReceived()
+    public void gameOver()
+    {
+
+    }
+
+    public void gameEnd()
     {
 
     }
