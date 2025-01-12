@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 6ee03dfa2900a854da142db83e6612ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8597379311572966351
+    second: music_static_0
+  - first:
+      213: 3755661075461785356
+    second: music_static_1
+  - first:
+      213: 148049768366898218
+    second: music_static_2
+  - first:
+      213: -2616412584339218179
+    second: music_static_3
+  - first:
+      213: 7454700132301043638
+    second: music_static_4
+  - first:
+      213: -1951017899916897871
+    second: music_static_5
+  - first:
+      213: 8112916162633116849
+    second: music_static_6
+  - first:
+      213: 7705937473234036997
+    second: music_static_7
+  - first:
+      213: 2092243993877762775
+    second: music_static_8
+  - first:
+      213: -8214715789154544157
+    second: music_static_9
+  - first:
+      213: 9094500372585718854
+    second: music_static_10
+  - first:
+      213: 2333947311132180716
+    second: music_static_11
+  - first:
+      213: 5009030776436185399
+    second: music_static_12
+  - first:
+      213: 5429061217749606749
+    second: music_static_13
+  - first:
+      213: -8203986531198386215
+    second: music_static_14
+  - first:
+      213: 1338598507116689567
+    second: music_static_15
+  - first:
+      213: -3944371136358151054
+    second: music_static_16
+  - first:
+      213: 7591710083008381723
+    second: music_static_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: music_static_0
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 673
+        width: 1498
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb5999dee6005770800000000000000
+      internalID: 8597379311572966351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_1
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 668
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0749ab89d9ce1430800000000000000
+      internalID: 3755661075461785356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_2
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 643
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c769cda7afd0200800000000000000
+      internalID: 148049768366898218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_3
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 659
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0699ced92a0bbd0800000000000000
+      internalID: -2616412584339218179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_4
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 647
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b77cdc064a647760800000000000000
+      internalID: 7454700132301043638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_5
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 641
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b156059e879ce4e0800000000000000
+      internalID: -1951017899916897871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_6
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 651
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bca54e044ed69070800000000000000
+      internalID: 8112916162633116849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_7
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 634
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5096c79dd4df0fa60800000000000000
+      internalID: 7705937473234036997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 647
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d25786c3d4290d10800000000000000
+      internalID: 2092243993877762775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_9
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 562
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e596a063877ffd80800000000000000
+      internalID: -8214715789154544157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_10
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 558
+        width: 91
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64421a577e7263e70800000000000000
+      internalID: 9094500372585718854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_11
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 576
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce00384b6b8d36020800000000000000
+      internalID: 2333947311132180716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_12
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 579
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7395a72c3f6a38540800000000000000
+      internalID: 5009030776436185399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_13
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 559
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51a0d3c966e75b40800000000000000
+      internalID: 5429061217749606749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_14
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 550
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfb4d967b5952e80800000000000000
+      internalID: -8203986531198386215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_15
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 548
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98fe810048a39210800000000000000
+      internalID: 1338598507116689567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_16
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 551
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c81138957c249c0800000000000000
+      internalID: -3944371136358151054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music_static_17
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 553
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13477f091c2b5960800000000000000
+      internalID: 7591710083008381723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      music_static_0: 8597379311572966351
+      music_static_1: 3755661075461785356
+      music_static_10: 9094500372585718854
+      music_static_11: 2333947311132180716
+      music_static_12: 5009030776436185399
+      music_static_13: 5429061217749606749
+      music_static_14: -8203986531198386215
+      music_static_15: 1338598507116689567
+      music_static_16: -3944371136358151054
+      music_static_17: 7591710083008381723
+      music_static_2: 148049768366898218
+      music_static_3: -2616412584339218179
+      music_static_4: 7454700132301043638
+      music_static_5: -1951017899916897871
+      music_static_6: 8112916162633116849
+      music_static_7: 7705937473234036997
+      music_static_8: 2092243993877762775
+      music_static_9: -8214715789154544157
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
