@@ -65,12 +65,14 @@ public class SheepSpawner : MonoBehaviour
 
         foreach (GameObject sheepInstance in sheep)
         {
-
-            Animator animator = sheepInstance.GetComponent<Animator>();
-            Debug.Log(animator);
-            if (animator != null)
+            if (Random.value <= .25)
             {
-                animator.runtimeAnimatorController = newController;
+                Animator animator = sheepInstance.GetComponent<Animator>();
+                Debug.Log(animator);
+                if (animator != null)
+                {
+                    animator.runtimeAnimatorController = newController;
+                }
             }
         }
     }
