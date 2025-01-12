@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 8361b47fd741e0e4395849c3c9807b15
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestScene.unity
     guid: 8eee712b0d6b9da4dab364b8a23be52d
+  - enabled: 1
+    path: Assets/Scenes/sheep movement + herding.unity
+    guid: d4d98068bfc471c4b88716759405d221
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

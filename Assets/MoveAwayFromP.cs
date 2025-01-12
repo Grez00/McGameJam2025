@@ -8,12 +8,12 @@ public class MoveAwayFromP : MonoBehaviour
     private Transform spawnPoint;
     private GameManager gameManager;
     public float moveSpeed = 1f;
-    public float triggerDistance = 1.5f;
+    public static float triggerDistance = 1.5f;
     public KeyCode moveKey = KeyCode.Space;
     public string controllerButton = "Jump";
     private SheepMovement movement;
     private float lastHit = -1f; // Stores the time of the last hit
-    private float cooldown = 1f; // Minimum time    between hits
+    public static float cooldown = 1f; // Minimum time    between hits
     // Multiplier for the wait time after hitting the sheep
     public float waitTimeMultiplier = 1.25f;
     private Rigidbody2D rb;
