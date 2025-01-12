@@ -133111,6 +133111,7 @@ MonoBehaviour:
   NinjaSheep: {fileID: 22100000, guid: a4ca7e201383dea428d0105540f6cfa9, type: 2}
   MusicSheep: {fileID: 22100000, guid: 5939e051748bb334b97dcfb409a374fe, type: 2}
   SherlockSheep: {fileID: 22100000, guid: 69b9193272e514740a9dac5e67ce6e73, type: 2}
+  SwimmingSheep: {fileID: 22100000, guid: 79af520737e5e534390912d997fca732, type: 2}
 --- !u!4 &1467044815
 Transform:
   m_ObjectHideFlags: 0

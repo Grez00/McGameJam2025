@@ -33,7 +33,13 @@ public class SheepSpawner : MonoBehaviour
         {
             yield return new WaitForSeconds(spawnRate);
             Transform spawnPos = spawnPoints[Random.Range(1, spawnPoints.Length)];
+
             currentSheep = Instantiate(sheepPrefab, spawnPos.position, Quaternion.identity);
+            if (Random.value <= .5)
+            {
+                int randNum = Random.Range(0, 6);
+                manager.gachaSingle(currentSheep, randNum);
+            }
 
             currentSheep.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
             SheepMovement movement = currentSheep.GetComponent<SheepMovement>();
@@ -74,6 +80,16 @@ public class SheepSpawner : MonoBehaviour
                     animator.runtimeAnimatorController = newController;
                 }
             }
+        }
+    }
+
+    public void ChangeSingleSheep(GameObject sheepInstance, AnimatorOverrideController newController)
+    {
+        Animator animator = sheepInstance.GetComponent<Animator>();
+        Debug.Log(animator);
+        if (animator != null)
+        {
+            animator.runtimeAnimatorController = newController;
         }
     }
 }

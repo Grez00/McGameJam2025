@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     public AnimatorOverrideController NinjaSheep;
     public AnimatorOverrideController MusicSheep;
     public AnimatorOverrideController SherlockSheep;
+    public AnimatorOverrideController SwimmingSheep;
 
     void Start()
     {
@@ -66,7 +67,7 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(2);
             balance -= (int) bleedRate;
             int randNum = Random.Range(0, 5);
-            gacha(randNum);
+            //gacha(randNum);
         }
     }
 
@@ -153,6 +154,64 @@ public class GameManager : MonoBehaviour
                 //upgrades.Remove("SherlockSheep");
                 break;
 
+            default:
+                break;
+        }
+    }
+
+    public void gachaSingle(GameObject sheepInstance, int rand) {
+        List<string> upgrades = new List<string> {"SchoolSheep", "AngelSheep", "NinjaSheep", "MusicSheep", "SherlockSheep", "SwimmingSheep"};
+        switch (upgrades[rand]) {
+            /*
+            case "SpeedUpgrade":
+                // TODO : VISUALS
+                PlayerMovement.speed *= 1.4f;
+                break;
+
+            case "CaneRange":
+                // TODO : VISUALS
+                MoveAwayFromP.triggerDistance *= 1.3f;
+                break;
+
+            case "CaneCooldown":
+                // TODO : VISUALS
+                MoveAwayFromP.cooldown *= 0.7f;
+                break;
+            */
+            case "SchoolSheep":
+                // TODO : VISUALS
+                sheepSpawner.ChangeSingleSheep(sheepInstance, SchoolSheep);
+                //upgrades.Remove("SchoolSheep");
+                break;
+
+            case "AngelSheep":
+                // TODO : VISUALS
+                sheepSpawner.ChangeSingleSheep(sheepInstance, AngelSheep);
+                //upgrades.Remove("AngelSheep");
+                break;
+
+            case "NinjaSheep":
+                // TODO : VISUALS
+                sheepSpawner.ChangeSingleSheep(sheepInstance, NinjaSheep);
+                //upgrades.Remove("NinjaSheep");
+                break;
+
+            case "MusicSheep":
+                // TODO : VISUALS
+                sheepSpawner.ChangeSingleSheep(sheepInstance, MusicSheep);
+                //upgrades.Remove("MusicSheep");
+                break;
+
+            case "SherlockSheep":
+                // TODO : VISUALS
+                sheepSpawner.ChangeSingleSheep(sheepInstance, SherlockSheep);
+                //upgrades.Remove("SherlockSheep");
+                break;
+            case "SwimmingSheep":
+                // TODO : VISUALS
+                sheepSpawner.ChangeSingleSheep(sheepInstance, SwimmingSheep);
+                //upgrades.Remove("SherlockSheep");
+                break;
             default:
                 break;
         }
