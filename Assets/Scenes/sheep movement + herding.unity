@@ -11308,8 +11308,9 @@ GameObject:
   - component: {fileID: 1449699700}
   - component: {fileID: 1449699699}
   - component: {fileID: 1449699698}
+  - component: {fileID: 1449699701}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Barn
   m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11401,6 +11402,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1449699701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449699697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5438d3be0c3b140b75ba1a3e93cae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1467044813
 GameObject:
   m_ObjectHideFlags: 0
@@ -11466,6 +11479,7 @@ GameObject:
   - component: {fileID: 1867657005}
   - component: {fileID: 1867657004}
   - component: {fileID: 1867657009}
+  - component: {fileID: 1867657010}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -11652,6 +11666,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1867657010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867657003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5438d3be0c3b140b75ba1a3e93cae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1913281940
 GameObject:
   m_ObjectHideFlags: 0
