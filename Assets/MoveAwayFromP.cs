@@ -91,10 +91,12 @@ public class MoveAwayFromP : MonoBehaviour
                         SheepSpawner sheepSpawner = spawnPoint.GetComponent<SheepSpawner>();
                         if (sheepSpawner != null && Vector2.Distance(transform.position, spawnPoint.position) < sheepSpawner.GetRadius())
                         {
-                            if (gameManager != null) gameManager.UpdateMoney();
+                            if (gameManager != null) gameManager.updateBalance();
                             else Debug.LogError("GameManager is not initialized.");
 
+                            Debug.Log(gameManager.getBalance());    
                             Debug.Log("Sheep returned to pen");
+
                             movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
                         }
                     }
