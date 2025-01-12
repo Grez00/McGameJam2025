@@ -7,6 +7,7 @@ public class AudioManagerOther : MonoBehaviour
     private float backgroundFloat, soundEffectsFloat;
     public AudioSource[] backgroundAudio;
     public AudioSource[] soundEffectsAudio;
+
     
     void Awake()
     {
@@ -15,6 +16,8 @@ public class AudioManagerOther : MonoBehaviour
 
     private void ContinueSettings() 
     {
+
+
         backgroundFloat = PlayerPrefs.GetFloat(BackgroundPref);
         soundEffectsFloat = PlayerPrefs.GetFloat(SoundEffectsPref);
 

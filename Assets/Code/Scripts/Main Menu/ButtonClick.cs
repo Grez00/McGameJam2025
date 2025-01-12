@@ -7,9 +7,10 @@ using UnityEngine.SceneManagement;
 
 public class ButtonClick : MonoBehaviour
 {
+    private static readonly string AltMusicPref = "AltMusicPref";
     public string _newGameLevel;
 
-    private bool altMusicBool = false;
+    private int altMusicBool = 0;
     public AudioSource musicReg;
     public AudioSource musicAlt;
     
@@ -26,9 +27,18 @@ public class ButtonClick : MonoBehaviour
 
     public void ToggleMusic()
     {
-        altMusicBool = !altMusicBool;
+        if (altMusicBool == 0)
+        {
+            altMusicBool = 1;
+        }
+        else if (altMusicBool == 1)
+        {
+            altMusicBool = 0;
+        }
 
-        if (altMusicBool)
+        PlayerPrefs.SetInt(AltMusicPref, altMusicBool);
+
+        if (altMusicBool == 1)
         {   
             musicReg.enabled = false;
             musicAlt.enabled = true;

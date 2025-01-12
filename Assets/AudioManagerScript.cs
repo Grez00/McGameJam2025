@@ -6,6 +6,10 @@ public class AudioManagerScript : MonoBehaviour
     private float backgroundFloat, soundEffectsFloat;
     public AudioSource[] backgroundAudio;
     public AudioSource[] soundEffectsAudio;
+    private static readonly string AltMusicPref = "AltMusicPref";
+    private int altMusicBool;
+    public AudioSource musicReg;
+    public AudioSource musicAlt;
 
     void Awake()
     {
@@ -14,6 +18,19 @@ public class AudioManagerScript : MonoBehaviour
 
     private void ContinueSettings()
     {
+        altMusicBool = PlayerPrefs.GetInt(AltMusicPref);
+
+        if (altMusicBool == 1)
+        {
+            musicReg.enabled = false;
+            musicAlt.enabled = true;
+        }
+        else if (altMusicBool == 0)
+        {
+            musicAlt.enabled = false;
+            musicReg.enabled = true;
+        }
+        
         backgroundFloat = PlayerPrefs.GetFloat(BackgroundPref);
         soundEffectsFloat = PlayerPrefs.GetFloat(SoundEffectsPref);
 
