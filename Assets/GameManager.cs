@@ -5,7 +5,7 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    private int Balance = 100; //total player money
+    private int balance = 100; //total player money
     [SerializeField] private float difficulty = 1.0f; //determines bleedrate and sheep speed
     [SerializeField] private float difficultyIncreaseRate = 10; //rate at which difficulty increases
     [SerializeField] private float bleedRate = 5; //rate of money loss
@@ -34,10 +34,10 @@ public class GameManager : MonoBehaviour
             {
                 balance -= 50;
                 GameObject lootBox = Instantiate(boxPrefab, Vector3.zero, Quaternion.identity);
-                lootBox.GetComponentInChildren<Crate>().manager = this;
+                //lootBox.GetComponentInChildren<Crate>().manager = this;
             }
         }
-        balanceText.text = "$" + Balance;
+        balanceText.text = "$" + balance;
     }
 
     //updates balance based on income
@@ -61,22 +61,23 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void UpdateMoney()
-    {
-        balance += sheepValue;
-        Debug.Log("Cash: " + balance);
-    }
-
     public float getDifficulty()
     {
         return difficulty;
     }
 
-    public int updateBalance(){
-        Balance += sheepValue;
-        return Balance;
+    public int UpdateBalance(){
+        balance += sheepValue;
+        Debug.Log("Cash: " + balance);
+        return balance;
     }
+
     public int getBalance(){
-        return Balance;
+        return balance;
+    }
+
+    public void prizeReceived()
+    {
+
     }
 }
