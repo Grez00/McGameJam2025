@@ -8,7 +8,7 @@ public class CameraRunnerScript : MonoBehaviour
     public Vector3 offset;
     private Vector3 velocity = Vector3.zero;
 
-    void LateUpdate()
+    void Update()
     {
         Vector3 targetPosition = player.position + offset;
 
