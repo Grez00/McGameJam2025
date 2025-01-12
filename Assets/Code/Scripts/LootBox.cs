@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Security.Cryptography;
+using System.Xml.Serialization;
 using UnityEngine;
 
 public class Crate : MonoBehaviour
@@ -7,7 +8,7 @@ public class Crate : MonoBehaviour
     [SerializeField] private Sprite initSprite;
     [SerializeField] private Sprite[] breakageSprites;
     [SerializeReference] private LootBoxReward[] prizes = new LootBoxReward[2];
-    [SerializeField] private float animationDuration;
+    [SerializeField] private float animationDuration = 0.5f;
     [SerializeField] private SpriteRenderer rewardSprite;
 
     private Animator animator;
@@ -24,6 +25,14 @@ public class Crate : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         spriteRenderer.sprite = initSprite;
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            clicked();
+        }
     }
 
 
