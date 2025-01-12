@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+
 public class SheepMovement : MonoBehaviour
 {
     public bool loop = true;
@@ -14,7 +15,7 @@ public class SheepMovement : MonoBehaviour
     public GameManager manager;
     private int currentDirection;
     Animator animator;
-
+    
     void Start()
     {
         sheep = GetComponent<Rigidbody2D>();
@@ -28,7 +29,7 @@ public class SheepMovement : MonoBehaviour
     IEnumerator SheepMove()
     {
         while (loop)
-        {
+        {   
             if (Random.value <= runChance)
             {
                 RunAway();
@@ -51,49 +52,81 @@ public class SheepMovement : MonoBehaviour
         {
             sheepSpawner.SheepLost(sheep.gameObject);
         }
-
-        runSpeed = manager.getDifficulty() + 1;
-        runChance = manager.getDifficulty() * .1f;
+ 
+        runSpeed = (Mathf.Pow(manager.getDifficulty(),2)/10 + 1);
+        runChance = (Mathf.Pow(manager.getDifficulty(),2)/100 + .1f); 
 
         //if the speed exceeds a threshold, the sheep feet moves faster
-    }
+    }   
 
     private int getNewDirection()
     {
         return Random.Range(0, 359);
     }
 
-    private void setSheepForce(int direction, float speed)
+    //sets sheep velocity based on direction and speed. Flips sprite appropriately.
+    public void setSheepVelocity(int direction, float speed)
     {
-        Vector2 force = new Vector2(speed * Mathf.Sin(Mathf.Deg2Rad * direction), speed * Mathf.Cos(Mathf.Deg2Rad * direction));
-        sheep.AddForce(force);
-        sprite.flipX = force.x > 0f;
+        sheep.linearVelocity = new Vector2(speed * Mathf.Sin(Mathf.Rad2Deg * direction), speed * Mathf.Cos(Mathf.Rad2Deg * direction));
+        sprite.flipX = sheep.linearVelocity.x > 0f;
+    }
+    public void setSheepVelocity(Vector2 direction, float speed)
+    {
+        sheep.linearVelocity = direction * speed;
+        sprite.flipX = sheep.linearVelocity.x > 0f;
     }
 
+    //chooses random direction and moves according to runSpeed
     private void RunAway()
     {
         currentDirection = getNewDirection();
-        setSheepForce(currentDirection, runSpeed);
-
+        setSheepVelocity(currentDirection, runSpeed);
+        
+        //set sheep animation parameters accordingly to make the sheep animation move in proper speed and diretion
         animator.SetBool("IsRunning", true);
-        animator.SetFloat("DirectionX", currentDirection > 0 && currentDirection < 90 || currentDirection > 270 && currentDirection < 360 ? 1f : -1f);
+        if (currentDirection > 0 && currentDirection < 90 || currentDirection > 270 && currentDirection < 360)
+        {
+            animator.SetFloat("DirectionX", 1f);
+        }
+        else
+        {
+            animator.SetFloat("DirectionX", -1f);
+        }
+        
     }
 
+    //chooses random direction and moves according to walkSpeed
     private void Wander()
     {
         currentDirection = getNewDirection();
-        setSheepForce(currentDirection, walkSpeed);
+        setSheepVelocity(currentDirection, walkSpeed);
 
+        //set sheep animation parameters accordingly
         animator.SetBool("IsWalking", true);
-        animator.SetFloat("DirectionX", currentDirection > 0 && currentDirection < 90 || currentDirection > 270 && currentDirection < 360 ? 1f : -1f);
+        if (currentDirection > 0 && currentDirection < 90 || currentDirection > 270 && currentDirection < 360)
+        {
+            animator.SetFloat("DirectionX", 1f);
+        }
+        else
+        {
+            animator.SetFloat("DirectionX", -1f);
+        }
     }
 
+    //stops all movement
     private void Wait()
     {
         sheep.linearVelocity = Vector2.zero;
-        sheep.linearVelocity = Vector2.zero;
 
+        //set sheep animation parameters accordingly
         animator.SetBool("IsIdle", true);
-        animator.SetFloat("DirectionX", currentDirection > 0 && currentDirection < 90 || currentDirection > 270 && currentDirection < 360 ? 1f : -1f);
+        if (currentDirection > 0 && currentDirection < 90 || currentDirection > 270 && currentDirection < 360)
+        {
+            animator.SetFloat("DirectionX", 1f);
+        }
+        else
+        {
+            animator.SetFloat("DirectionX", -1f);
+        }
     }
 }

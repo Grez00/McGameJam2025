@@ -303,7 +303,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   difficulty: 1
-  difficultyIncreaseRate: 10
   bleedRate: 5
   sheepValue: 1
   sheepSpawner: {fileID: 1997665434}
@@ -390,7 +389,6 @@ MonoBehaviour:
   sheepPrefab: {fileID: 1386916791}
   spawnRate: 2
   safeRadius: 10
-  manager: {fileID: 772245030}
 --- !u!4 &1997665435
 Transform:
   m_ObjectHideFlags: 0
