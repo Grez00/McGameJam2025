@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movementDirection;
 
     private bool isMoving;
+    private bool movingVertically;
 
     void Awake()
     {
@@ -25,7 +26,15 @@ public class PlayerMovement : MonoBehaviour
         {
             isMoving = true;
             animator.SetBool("IsMoving", isMoving);
-            animator.SetFloat("DirectionX", movementDirection.x);
+            if (movementDirection.x != 0)
+            {
+                animator.SetFloat("DirectionX", movementDirection.x);
+            }
+            else if (movementDirection.x == 0)
+            {
+                movingVertically = true;
+                animator.SetBool("IsMovingUpDown", movingVertically);
+            }         
         }
         else
         {
