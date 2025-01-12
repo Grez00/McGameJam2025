@@ -8,8 +8,16 @@ using UnityEngine.SceneManagement;
 public class ButtonClick : MonoBehaviour
 {
     public string _newGameLevel;
+<<<<<<< Updated upstream
     public static int song = 0;
     public AudioSource audioss;
+=======
+
+    private bool altMusicBool = false;
+    public AudioSource musicReg;
+    public AudioSource musicAlt;
+    
+>>>>>>> Stashed changes
     public void NewGame ()
     {
         SceneManager.LoadScene(_newGameLevel);
@@ -23,11 +31,17 @@ public class ButtonClick : MonoBehaviour
 
     public void ToggleMusic()
     {
-        if (song == 0) {
-            song = 1;
+        altMusicBool = !altMusicBool;
+
+        if (altMusicBool)
+        {   
+            musicReg.enabled = false;
+            musicAlt.enabled = true;
         }
-        else {
-            song = 0;
+        else
+        {
+            musicAlt.enabled = false;
+            musicReg.enabled = true;
         }
     }
 }
