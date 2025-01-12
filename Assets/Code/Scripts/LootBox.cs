@@ -26,6 +26,7 @@ public class Crate : MonoBehaviour
         spriteRenderer.sprite = initSprite;
     }
 
+
     public void clicked()
     {
         Debug.Log("CLICKED");

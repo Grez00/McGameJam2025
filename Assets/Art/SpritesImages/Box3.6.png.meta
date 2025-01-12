@@ -133,7 +133,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -850,7 +850,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -859,7 +859,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Box3.6_0: 3414661662741469471
+      Box3.6_1: 9214316445812819128
+      Box3.6_10: -4355012327074162803
+      Box3.6_11: 4031332034780115313
+      Box3.6_12: -1076811184262805684
+      Box3.6_13: 597458147620205589
+      Box3.6_14: -3180690307101419335
+      Box3.6_15: -7161659342355726561
+      Box3.6_16: -7851216376710604053
+      Box3.6_17: 5180917595186772228
+      Box3.6_18: -8638146161326620012
+      Box3.6_19: 833244449059729306
+      Box3.6_2: 7425949608595932450
+      Box3.6_20: -3583105511087668540
+      Box3.6_21: 4385087052738540985
+      Box3.6_22: -6379097748386945487
+      Box3.6_23: -5748392473344936654
+      Box3.6_24: -303865215357236902
+      Box3.6_25: -5472484317004671046
+      Box3.6_26: 3235618584098372379
+      Box3.6_27: 3873702714513873926
+      Box3.6_28: -7183213361749640098
+      Box3.6_29: -863863855561685756
+      Box3.6_3: 6081489532343829734
+      Box3.6_4: 2829498224216226811
+      Box3.6_5: -2216431184348466775
+      Box3.6_6: -2423282394008288524
+      Box3.6_7: 6447998104668233454
+      Box3.6_8: 9060796632402667352
+      Box3.6_9: -2483801082890127577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
