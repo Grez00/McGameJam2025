@@ -6,7 +6,7 @@ public class Crate : MonoBehaviour
 {
     [SerializeField] private Sprite initSprite;
     [SerializeField] private Sprite[] breakageSprites;
-    [SerializeField] private Sprite[] prizes;
+    [SerializeReference] private LootBoxReward[] prizes = new LootBoxReward[2];
     [SerializeField] private float animationDuration;
     [SerializeField] private SpriteRenderer rewardSprite;
     public GameManager manager;
@@ -26,6 +26,7 @@ public class Crate : MonoBehaviour
         spriteRenderer.sprite = initSprite;
     }
 
+
     public void clicked()
     {
         Debug.Log("CLICKED");
@@ -34,7 +35,7 @@ public class Crate : MonoBehaviour
 
         else
         {
-            if (breakage < 6)
+            if (breakage < 3)
             {
                 StartCoroutine(Breakage());
             }
