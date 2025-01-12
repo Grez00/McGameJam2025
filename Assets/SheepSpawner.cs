@@ -35,6 +35,8 @@ public class SheepSpawner : MonoBehaviour
             yield return new WaitForSeconds(spawnRate);
             Transform spawnPos = spawnPoints[Random.Range(0, spawnPoints.Length)];
             currentSheep = Instantiate(sheepPrefab, spawnPos.position, Quaternion.identity);
+            //make sheep sprite smaller
+            currentSheep.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
             SheepMovement movement = currentSheep.GetComponent<SheepMovement>();
             movement.sheepSpawner = this;
             movement.manager = manager;
