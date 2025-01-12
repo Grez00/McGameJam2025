@@ -26,8 +26,6 @@ public class GameManager : MonoBehaviour
     public AnimatorOverrideController MusicSheep;
     public AnimatorOverrideController SherlockSheep;
 
-
-
     void Start()
     {
         startTime = Time.time;
@@ -38,7 +36,6 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         bleedRate = difficulty + 4;
-
         if (Input.GetKey(KeyCode.F))
         {
             Debug.Log("F Pressed");
@@ -68,6 +65,8 @@ public class GameManager : MonoBehaviour
         {
             yield return new WaitForSeconds(2);
             balance -= (int) bleedRate;
+            int randNum = Random.Range(0, 5);
+            gacha(randNum);
         }
     }
 
@@ -127,31 +126,31 @@ public class GameManager : MonoBehaviour
             case "SchoolSheep":
                 // TODO : VISUALS
                 sheepSpawner.ChangeSheepAnimation(SchoolSheep);
-                upgrades.Remove("SchoolSheep");
+                //upgrades.Remove("SchoolSheep");
                 break;
 
             case "AngelSheep":
                 // TODO : VISUALS
                 sheepSpawner.ChangeSheepAnimation(AngelSheep);
-                upgrades.Remove("AngelSheep");
+                //upgrades.Remove("AngelSheep");
                 break;
 
             case "NinjaSheep":
                 // TODO : VISUALS
                 sheepSpawner.ChangeSheepAnimation(NinjaSheep);
-                upgrades.Remove("NinjaSheep");
+                //upgrades.Remove("NinjaSheep");
                 break;
 
             case "MusicSheep":
                 // TODO : VISUALS
                 sheepSpawner.ChangeSheepAnimation(MusicSheep);
-                upgrades.Remove("MusicSheep");
+                //upgrades.Remove("MusicSheep");
                 break;
 
             case "SherlockSheep":
                 // TODO : VISUALS
                 sheepSpawner.ChangeSheepAnimation(SherlockSheep);
-                upgrades.Remove("SherlockSheep");
+                //upgrades.Remove("SherlockSheep");
                 break;
 
             default:
