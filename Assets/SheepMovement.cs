@@ -54,7 +54,7 @@ public class SheepMovement : MonoBehaviour
         {
             sheepSpawner.SheepLost(this.gameObject);
             this.gameObject.SetActive(false);
-            manager.UpdateMoney();
+            manager.UpdateBalance();
         }
 
         runSpeed = manager.getDifficulty() + 1;
