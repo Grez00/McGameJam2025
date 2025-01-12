@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,6 +10,11 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movementDirection;
 
     private bool isMoving;
+
+    // for footsteps
+    public AudioSource[] footstepSources;
+    private AudioSource randomFootstep;
+    private AudioSource prevFootstep = null;
 
     void Awake()
     {
@@ -26,11 +32,34 @@ public class PlayerMovement : MonoBehaviour
             isMoving = true;
             animator.SetBool("IsMoving", isMoving);
             animator.SetFloat("DirectionX", movementDirection.x);
+
+            // for footstep audio:
+            if (prevFootstep != null) 
+            {
+                if (!prevFootstep.isPlaying) 
+                {
+                    prevFootstep.enabled = false;
+                    randomFootstep = footstepSources[Random.Range(0, footstepSources.Length)];
+                    randomFootstep.enabled = true;
+                    prevFootstep = randomFootstep;
+                }
+            }
+            else 
+            {
+                    randomFootstep = footstepSources[Random.Range(0, footstepSources.Length)];
+                    randomFootstep.enabled = true;
+                    prevFootstep = randomFootstep;               
+            }
         }
         else
         {
             isMoving = false;
             animator.SetBool("IsMoving", isMoving);
+
+            foreach (AudioSource footstep in footstepSources) 
+            {
+                footstep.enabled = false;
+            }
         }
     }
 

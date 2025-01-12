@@ -14,7 +14,7 @@ public class SheepSpawner : MonoBehaviour
     private Transform[] spawnPoints;
     private GameObject currentSheep;
     public GameManager manager;
-    
+
     void Start()
     {
         StartCoroutine(SpawnSheep());
@@ -24,10 +24,9 @@ public class SheepSpawner : MonoBehaviour
 
     void Update()
     {
-        
+
     }
 
-    //instantiates new sheep based on spawn rate
     IEnumerator SpawnSheep()
     {
         while (true)
@@ -36,7 +35,6 @@ public class SheepSpawner : MonoBehaviour
             Transform spawnPos = spawnPoints[Random.Range(1, spawnPoints.Length)];
             currentSheep = Instantiate(sheepPrefab, spawnPos.position, Quaternion.identity);
 
-            //make sheep sprite smaller
             currentSheep.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
             SheepMovement movement = currentSheep.GetComponent<SheepMovement>();
             movement.sheepSpawner = this;
@@ -57,9 +55,23 @@ public class SheepSpawner : MonoBehaviour
         return safeRadius;
     }
 
-    //updates sheep list when one is returned
     public void SheepLost(GameObject lostSheep)
     {
         sheep.Remove(lostSheep);
+    }
+
+    public void ChangeSheepAnimation(AnimatorOverrideController newController)
+    {
+
+        foreach (GameObject sheepInstance in sheep)
+        {
+
+            Animator animator = sheepInstance.GetComponent<Animator>();
+            Debug.Log(animator);
+            if (animator != null)
+            {
+                animator.runtimeAnimatorController = newController;
+            }
+        }
     }
 }

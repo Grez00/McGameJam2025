@@ -19,6 +19,13 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI balanceText;
     private float startTime;
     private float gameDuration = 500f;
+    
+    public AnimatorOverrideController SchoolSheep; //why is this not showing up in the inspector?  
+    public AnimatorOverrideController AngelSheep;
+    public AnimatorOverrideController NinjaSheep;
+    public AnimatorOverrideController MusicSheep;
+    public AnimatorOverrideController SherlockSheep;
+
 
 
     void Start()
@@ -119,31 +126,31 @@ public class GameManager : MonoBehaviour
             */
             case "SchoolSheep":
                 // TODO : VISUALS
-                // TODO : SET SKIN
+                sheepSpawner.ChangeSheepAnimation(SchoolSheep);
                 upgrades.Remove("SchoolSheep");
                 break;
 
             case "AngelSheep":
                 // TODO : VISUALS
-                // TODO : SET SKIN
+                sheepSpawner.ChangeSheepAnimation(AngelSheep);
                 upgrades.Remove("AngelSheep");
                 break;
 
             case "NinjaSheep":
                 // TODO : VISUALS
-                // TODO : SET SKIN
+                sheepSpawner.ChangeSheepAnimation(NinjaSheep);
                 upgrades.Remove("NinjaSheep");
                 break;
 
             case "MusicSheep":
                 // TODO : VISUALS
-                // TODO : SET SKIN
+                sheepSpawner.ChangeSheepAnimation(MusicSheep);
                 upgrades.Remove("MusicSheep");
                 break;
 
             case "SherlockSheep":
                 // TODO : VISUALS
-                // TODO : SET SKIN
+                sheepSpawner.ChangeSheepAnimation(SherlockSheep);
                 upgrades.Remove("SherlockSheep");
                 break;
 
