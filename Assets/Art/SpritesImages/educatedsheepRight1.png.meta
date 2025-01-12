@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      educatedsheepRight1_0: -3252327546436017231
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

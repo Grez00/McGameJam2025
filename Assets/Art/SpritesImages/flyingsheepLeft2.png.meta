@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flyingsheepLeft2_0: -7078817524581207926
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
