@@ -6,9 +6,10 @@ public class Crate : MonoBehaviour
 {
     [SerializeField] private Sprite initSprite;
     [SerializeField] private Sprite[] breakageSprites;
-    [SerializeReference] private LootBoxReward[] prizes = new LootBoxReward[2];
+    [SerializeField] private Sprite[] prizes;
     [SerializeField] private float animationDuration;
     [SerializeField] private SpriteRenderer rewardSprite;
+    public GameManager manager;
 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -18,8 +19,7 @@ public class Crate : MonoBehaviour
 
     void Start()
     {
-        prizes[0] = new FreeCat();
-        prizes[1] = new Cat2();
+        Time.timeScale = 0.0f;
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
@@ -51,7 +51,7 @@ public class Crate : MonoBehaviour
 
         animator.SetTrigger("BreakTrigger");
 
-        yield return new WaitForSeconds(animationDuration);
+        yield return new WaitForSecondsRealtime(animationDuration);
 
         breakage++;
 
@@ -64,11 +64,12 @@ public class Crate : MonoBehaviour
 
         animator.SetTrigger("OpenTrigger");
 
-        yield return new WaitForSeconds(animationDuration);
+        yield return new WaitForSecondsRealtime(animationDuration);
 
-        LootBoxReward prize = prizes[Random.Range(0, prizes.Length)];
-        rewardSprite.sprite = prize.getSprite();
-        prize.received();
-        this.gameObject.SetActive(false);
+        int prizeNum = Random.Range(0, prizes.Length);
+        spriteRenderer.sprite = prizes[prizeNum];
+        manager.prizeReceived(prizeNum);
+
+        Time.timeScale = 1.0f;
     }
 }

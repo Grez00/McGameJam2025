@@ -29,8 +29,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2139575730767923824}
   - {fileID: 7941841793769932615}
+  - {fileID: 2139575730767923824}
   - {fileID: 8148080399834918286}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -110,7 +110,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,7 +118,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &7715383779464442619
@@ -442,15 +442,12 @@ MonoBehaviour:
   - {fileID: 5407865783541803624, guid: ef881340ced9899419c1602e5779be96, type: 3}
   - {fileID: -3190992554705633285, guid: b1559dd7cd8d991469f32003d2bb96d6, type: 3}
   prizes:
-  - rid: -2
-  - rid: -2
+  - {fileID: -7416686705017423735, guid: 469f17065ab2d8d45940a312bedfaf04, type: 3}
+  - {fileID: 4127061520586125187, guid: 5502fa85bfc2a6448bfbbc6991e42172, type: 3}
+  - {fileID: -4767965342017160407, guid: 2891b4616968c73409b5f2d440738cf8, type: 3}
   animationDuration: 1.2
   rewardSprite: {fileID: 6418294329695475610}
-  references:
-    version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
+  manager: {fileID: 0}
 --- !u!95 &2750062680341575712
 Animator:
   serializedVersion: 7
@@ -463,7 +460,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: cc56d0397b25ca5439e6be8303ec4687, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
