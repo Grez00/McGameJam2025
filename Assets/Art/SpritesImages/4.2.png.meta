@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b415226456a1b4c8cb0d9d4b10b3f3af
+guid: 5260d01bc6c9141c692fde657edc0a6e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7078817524581207926
-    second: flyingsheepLeft2_0
+      213: -7044123859323850359
+    second: 4.2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flyingsheepLeft2_0
+      name: 4.2_0
       rect:
         serializedVersion: 2
         x: 175
         y: 535
-        width: 1703
-        height: 1326
+        width: 1498
+        height: 1147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a80f68177fcf2cd90800000000000000
-      internalID: -7078817524581207926
+      spriteID: 981f52bdbae3e3e90800000000000000
+      internalID: -7044123859323850359
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      flyingsheepLeft2_0: -7078817524581207926
+      4.2_0: -7044123859323850359
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

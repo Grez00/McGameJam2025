@@ -1,196 +1,199 @@
 fileFormatVersion: 2
-guid: b8ec0f9443e294265be8bfcf16893723
+guid: 45b2ffc4cf2d44421aa78df8ef204493
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4092928344006247640
-    second: flyingsheepLeft1_0
+      213: 1036393447275659553
+    second: 4.1_0
   - first:
-      213: 5699232612225849758
-    second: flyingsheepLeft1_1
+      213: -1155005184861963121
+    second: 4.1_1
   - first:
-      213: -8127308614956716175
-    second: flyingsheepLeft1_2
+      213: 522976516707100918
+    second: 4.1_2
   - first:
-      213: -304871172887476544
-    second: flyingsheepLeft1_3
+      213: -6841116347856546099
+    second: 4.1_3
   - first:
-      213: 3270569923844451377
-    second: flyingsheepLeft1_4
+      213: -8833659223492314518
+    second: 4.1_4
   - first:
-      213: -8448075328681400179
-    second: flyingsheepLeft1_5
+      213: 1316022460671601936
+    second: 4.1_5
   - first:
-      213: 1501701748667468871
-    second: flyingsheepLeft1_6
+      213: 1898778752366174796
+    second: 4.1_6
   - first:
-      213: -8735376169098558311
-    second: flyingsheepLeft1_7
+      213: 1096426771787262801
+    second: 4.1_7
   - first:
-      213: 2369896304078360003
-    second: flyingsheepLeft1_8
+      213: 3794921183131948001
+    second: 4.1_8
   - first:
-      213: 8126344067311565584
-    second: flyingsheepLeft1_9
+      213: -6672548276472426615
+    second: 4.1_9
   - first:
-      213: -8409247548522911297
-    second: flyingsheepLeft1_10
+      213: -7468232290294908856
+    second: 4.1_10
   - first:
-      213: -6858782362215974829
-    second: flyingsheepLeft1_11
+      213: 9035686740499598559
+    second: 4.1_11
   - first:
-      213: 8506198265596943854
-    second: flyingsheepLeft1_12
+      213: -7216296909280980453
+    second: 4.1_12
   - first:
-      213: 8176887391760029061
-    second: flyingsheepLeft1_13
+      213: -6719976351843534825
+    second: 4.1_13
   - first:
-      213: 1662708286850964082
-    second: flyingsheepLeft1_14
+      213: 6820695067162816819
+    second: 4.1_14
   - first:
-      213: -4369590071794012588
-    second: flyingsheepLeft1_15
+      213: 7316886587761538198
+    second: 4.1_15
   - first:
-      213: -2140229896670449705
-    second: flyingsheepLeft1_16
+      213: 7540642047791107705
+    second: 4.1_16
   - first:
-      213: 1110848602013649541
-    second: flyingsheepLeft1_17
+      213: -1020300158104384488
+    second: 4.1_17
   - first:
-      213: 7278220647439131552
-    second: flyingsheepLeft1_18
+      213: -549809577381161832
+    second: 4.1_18
   - first:
-      213: 7507672962404924364
-    second: flyingsheepLeft1_19
+      213: -3571215831815810159
+    second: 4.1_19
   - first:
-      213: 3975057590950534405
-    second: flyingsheepLeft1_20
+      213: -8864393297163623898
+    second: 4.1_20
   - first:
-      213: 3116733682638896078
-    second: flyingsheepLeft1_21
+      213: -8184538466610652617
+    second: 4.1_21
   - first:
-      213: -5235595721604230694
-    second: flyingsheepLeft1_22
+      213: -1205702532830613499
+    second: 4.1_22
   - first:
-      213: -7614649953565907593
-    second: flyingsheepLeft1_23
+      213: -7442450584459771214
+    second: 4.1_23
   - first:
-      213: 7912114936124434688
-    second: flyingsheepLeft1_24
+      213: 2425521766842336008
+    second: 4.1_24
   - first:
-      213: -3907543401516452858
-    second: flyingsheepLeft1_25
+      213: 5133003454439036115
+    second: 4.1_25
   - first:
-      213: 2006936579644141831
-    second: flyingsheepLeft1_26
+      213: 4371234658071148913
+    second: 4.1_26
   - first:
-      213: -4664143353201803197
-    second: flyingsheepLeft1_27
+      213: 8303099055474521803
+    second: 4.1_27
   - first:
-      213: -7077475365885282180
-    second: flyingsheepLeft1_28
+      213: 808915397906773742
+    second: 4.1_28
   - first:
-      213: -5465795009440163602
-    second: flyingsheepLeft1_29
+      213: -3253496697490414241
+    second: 4.1_29
   - first:
-      213: 4684974661419187499
-    second: flyingsheepLeft1_30
+      213: -9202645379875683817
+    second: 4.1_30
   - first:
-      213: -420614769093726447
-    second: flyingsheepLeft1_31
+      213: 8733314553913646092
+    second: 4.1_31
   - first:
-      213: -4566990098823700370
-    second: flyingsheepLeft1_32
+      213: 8653385292295392232
+    second: 4.1_32
   - first:
-      213: 7974321483707515283
-    second: flyingsheepLeft1_33
+      213: -4937891373833533023
+    second: 4.1_33
   - first:
-      213: 3496455582304426631
-    second: flyingsheepLeft1_34
+      213: -3232113602055535456
+    second: 4.1_34
   - first:
-      213: 3454367816212535411
-    second: flyingsheepLeft1_35
+      213: -1341749162844628310
+    second: 4.1_35
   - first:
-      213: -2437328019640954534
-    second: flyingsheepLeft1_36
+      213: 7253735164598715670
+    second: 4.1_36
   - first:
-      213: 219390502873244968
-    second: flyingsheepLeft1_37
+      213: -8837623735818508884
+    second: 4.1_37
   - first:
-      213: 5719784932036218199
-    second: flyingsheepLeft1_38
+      213: 9149618376496237590
+    second: 4.1_38
   - first:
-      213: -145529192960883638
-    second: flyingsheepLeft1_39
+      213: 8285173483474179794
+    second: 4.1_39
   - first:
-      213: 6503872185588473689
-    second: flyingsheepLeft1_40
+      213: 2269335996112656606
+    second: 4.1_40
   - first:
-      213: -5874119635318530182
-    second: flyingsheepLeft1_41
+      213: 1322070174997557832
+    second: 4.1_41
   - first:
-      213: 9107890502217491757
-    second: flyingsheepLeft1_42
+      213: -2862896077125540871
+    second: 4.1_42
   - first:
-      213: 5584762727049818201
-    second: flyingsheepLeft1_43
+      213: 1600855483440267319
+    second: 4.1_43
   - first:
-      213: -4572396450920612219
-    second: flyingsheepLeft1_44
+      213: 2819131749560600259
+    second: 4.1_44
   - first:
-      213: -4709765854025798259
-    second: flyingsheepLeft1_45
+      213: -359779629600313986
+    second: 4.1_45
   - first:
-      213: 123150147077252413
-    second: flyingsheepLeft1_46
+      213: 6637001398967760185
+    second: 4.1_46
   - first:
-      213: -7219816011262851331
-    second: flyingsheepLeft1_47
+      213: 5106672927349229650
+    second: 4.1_47
   - first:
-      213: -782102390869873651
-    second: flyingsheepLeft1_48
+      213: -8355810431514191711
+    second: 4.1_48
   - first:
-      213: -8722238378353301289
-    second: flyingsheepLeft1_49
+      213: -3933779240641963411
+    second: 4.1_49
   - first:
-      213: 7663283824822911675
-    second: flyingsheepLeft1_50
+      213: -5364022541139921709
+    second: 4.1_50
   - first:
-      213: -427357869076868904
-    second: flyingsheepLeft1_51
+      213: -5213646869067188421
+    second: 4.1_51
   - first:
-      213: -6114855478347441270
-    second: flyingsheepLeft1_52
+      213: 8529320558504317919
+    second: 4.1_52
   - first:
-      213: -5941525179572645187
-    second: flyingsheepLeft1_53
+      213: -9213838356466216476
+    second: 4.1_53
   - first:
-      213: 1967957662800064304
-    second: flyingsheepLeft1_54
+      213: 7249125182383673568
+    second: 4.1_54
   - first:
-      213: 8656949912448910817
-    second: flyingsheepLeft1_55
+      213: 4843783505598056824
+    second: 4.1_55
   - first:
-      213: 6687948308167731197
-    second: flyingsheepLeft1_56
+      213: 8427005937216662513
+    second: 4.1_56
   - first:
-      213: -8441792835520550681
-    second: flyingsheepLeft1_57
+      213: -7106995833036427291
+    second: 4.1_57
   - first:
-      213: -2723803210612832786
-    second: flyingsheepLeft1_58
+      213: -2594045897335409821
+    second: 4.1_58
   - first:
-      213: 1728709000473604974
-    second: flyingsheepLeft1_59
+      213: -7569009638351000599
+    second: 4.1_59
   - first:
-      213: -7527553444509816418
-    second: flyingsheepLeft1_60
+      213: 7569837372036418215
+    second: 4.1_60
   - first:
-      213: 3702662961659376032
-    second: flyingsheepLeft1_61
+      213: -4479301362225497072
+    second: 4.1_61
   - first:
-      213: -4994448339564571667
-    second: flyingsheepLeft1_62
+      213: 7108329641657516811
+    second: 4.1_62
+  - first:
+      213: -853875865199064688
+    second: 4.1_63
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -286,7 +289,29 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flyingsheepLeft1_0
+      name: 4.1_0
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1808
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12188686952026e00800000000000000
+      internalID: 1036393447275659553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4.1_1
       rect:
         serializedVersion: 2
         x: 0
@@ -301,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d4ce93c4a00dc830800000000000000
-      internalID: 4092928344006247640
+      spriteID: f8c719267e898ffe0800000000000000
+      internalID: -1155005184861963121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_1
+      name: 4.1_2
       rect:
         serializedVersion: 2
         x: 0
@@ -323,20 +348,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e991b007dddb71f40800000000000000
-      internalID: 5699232612225849758
+      spriteID: 6f8a2300f5cf14700800000000000000
+      internalID: 522976516707100918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_2
+      name: 4.1_3
       rect:
         serializedVersion: 2
         x: 131
         y: 519
-        width: 1747
-        height: 1342
+        width: 1542
+        height: 1163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17f688100eff53f80800000000000000
-      internalID: -8127308614956716175
+      spriteID: dc694ea6de87f01a0800000000000000
+      internalID: -6841116347856546099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_3
+      name: 4.1_4
       rect:
         serializedVersion: 2
         x: 0
@@ -367,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c609c59841e4cbf0800000000000000
-      internalID: -304871172887476544
+      spriteID: a6a33ec2db9886580800000000000000
+      internalID: -8833659223492314518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_4
+      name: 4.1_5
       rect:
         serializedVersion: 2
         x: 0
@@ -389,14 +414,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13c23db7406636d20800000000000000
-      internalID: 3270569923844451377
+      spriteID: 01d24c49473734210800000000000000
+      internalID: 1316022460671601936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_5
+      name: 4.1_6
       rect:
         serializedVersion: 2
         x: 0
@@ -411,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8824369f3862ca80800000000000000
-      internalID: -8448075328681400179
+      spriteID: c4268d11731d95a10800000000000000
+      internalID: 1898778752366174796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_6
+      name: 4.1_7
       rect:
         serializedVersion: 2
         x: 147
@@ -433,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74c48e7b8cd17d410800000000000000
-      internalID: 1501701748667468871
+      spriteID: 15bab9ef65a473f00800000000000000
+      internalID: 1096426771787262801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_7
+      name: 4.1_8
       rect:
         serializedVersion: 2
         x: 0
@@ -455,14 +480,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 994c77df7a5b5c680800000000000000
-      internalID: -8735376169098558311
+      spriteID: 1e35f2fa5b44aa430800000000000000
+      internalID: 3794921183131948001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_8
+      name: 4.1_9
       rect:
         serializedVersion: 2
         x: 0
@@ -477,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cd0a1fd12093e020800000000000000
-      internalID: 2369896304078360003
+      spriteID: 98f473af1b85663a0800000000000000
+      internalID: -6672548276472426615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_9
+      name: 4.1_10
       rect:
         serializedVersion: 2
         x: 0
@@ -499,14 +524,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01b75bebfd296c070800000000000000
-      internalID: 8126344067311565584
+      spriteID: 848bed4ec428b5890800000000000000
+      internalID: -7468232290294908856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_10
+      name: 4.1_11
       rect:
         serializedVersion: 2
         x: 0
@@ -521,14 +546,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb9a7f1a8e95c4b80800000000000000
-      internalID: -8409247548522911297
+      spriteID: fdc8f25a735356d70800000000000000
+      internalID: 9035686740499598559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_11
+      name: 4.1_12
       rect:
         serializedVersion: 2
         x: 151
@@ -543,14 +568,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 358f66ce7c5b0d0a0800000000000000
-      internalID: -6858782362215974829
+      spriteID: b12de80d1309adb90800000000000000
+      internalID: -7216296909280980453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_12
+      name: 4.1_13
       rect:
         serializedVersion: 2
         x: 229
@@ -565,14 +590,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eed13f931461c0670800000000000000
-      internalID: 8506198265596943854
+      spriteID: 7183759ac19ddb2a0800000000000000
+      internalID: -6719976351843534825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_13
+      name: 4.1_14
       rect:
         serializedVersion: 2
         x: 232
@@ -587,14 +612,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5851a3282c32a7170800000000000000
-      internalID: 8176887391760029061
+      spriteID: 331bf77a60af7ae50800000000000000
+      internalID: 6820695067162816819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_14
+      name: 4.1_15
       rect:
         serializedVersion: 2
         x: 236
@@ -609,14 +634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27a99d2a060231710800000000000000
-      internalID: 1662708286850964082
+      spriteID: 694b855c59dca8560800000000000000
+      internalID: 7316886587761538198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_15
+      name: 4.1_16
       rect:
         serializedVersion: 2
         x: 240
@@ -631,14 +656,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45ee4a41bf81c53c0800000000000000
-      internalID: -4369590071794012588
+      spriteID: 97e86fc8dfdb5a860800000000000000
+      internalID: 7540642047791107705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_16
+      name: 4.1_17
       rect:
         serializedVersion: 2
         x: 247
@@ -653,14 +678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7df69479f306c42e0800000000000000
-      internalID: -2140229896670449705
+      spriteID: 81cc9e7796a27d1f0800000000000000
+      internalID: -1020300158104384488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_17
+      name: 4.1_18
       rect:
         serializedVersion: 2
         x: 110
@@ -675,14 +700,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58a43420be68a6f00800000000000000
-      internalID: 1110848602013649541
+      spriteID: 89496163a1fae58f0800000000000000
+      internalID: -549809577381161832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_18
+      name: 4.1_19
       rect:
         serializedVersion: 2
         x: 242
@@ -697,14 +722,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a3e58ffd1f610560800000000000000
-      internalID: 7278220647439131552
+      spriteID: 1931e504f1e707ec0800000000000000
+      internalID: -3571215831815810159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_19
+      name: 4.1_20
       rect:
         serializedVersion: 2
         x: 244
@@ -719,14 +744,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ccb33fd28cc903860800000000000000
-      internalID: 7507672962404924364
+      spriteID: 622653503495bf480800000000000000
+      internalID: -8864393297163623898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_20
+      name: 4.1_21
       rect:
         serializedVersion: 2
         x: 109
@@ -741,14 +766,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50d935671dd3a2730800000000000000
-      internalID: 3975057590950534405
+      spriteID: 73ad62fc0adaa6e80800000000000000
+      internalID: -8184538466610652617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_21
+      name: 4.1_22
       rect:
         serializedVersion: 2
         x: 112
@@ -763,14 +788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecbbf2d65ccd04b20800000000000000
-      internalID: 3116733682638896078
+      spriteID: 500b7d93feb744fe0800000000000000
+      internalID: -1205702532830613499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_22
+      name: 4.1_23
       rect:
         serializedVersion: 2
         x: 110
@@ -785,14 +810,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad1993a3e6d6757b0800000000000000
-      internalID: -5235595721604230694
+      spriteID: 2b280ee00aa17b890800000000000000
+      internalID: -7442450584459771214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_23
+      name: 4.1_24
       rect:
         serializedVersion: 2
         x: 236
@@ -807,14 +832,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77562cc1634535690800000000000000
-      internalID: -7614649953565907593
+      spriteID: 8038d9b223f29a120800000000000000
+      internalID: 2425521766842336008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_24
+      name: 4.1_25
       rect:
         serializedVersion: 2
         x: 241
@@ -829,14 +854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00962cd3d9a7dcd60800000000000000
-      internalID: 7912114936124434688
+      spriteID: 3d411bc22771c3740800000000000000
+      internalID: 5133003454439036115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_25
+      name: 4.1_26
       rect:
         serializedVersion: 2
         x: 245
@@ -851,14 +876,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 604b038bafd95c9c0800000000000000
-      internalID: -3907543401516452858
+      spriteID: 179f43003ceb9ac30800000000000000
+      internalID: 4371234658071148913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_26
+      name: 4.1_27
       rect:
         serializedVersion: 2
         x: 259
@@ -873,14 +898,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7013d6c9f221adb10800000000000000
-      internalID: 2006936579644141831
+      spriteID: bc6b07869988a3370800000000000000
+      internalID: 8303099055474521803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_27
+      name: 4.1_28
       rect:
         serializedVersion: 2
         x: 280
@@ -895,14 +920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34048eaf452a54fb0800000000000000
-      internalID: -4664143353201803197
+      spriteID: ee6b391c448d93b00800000000000000
+      internalID: 808915397906773742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_28
+      name: 4.1_29
       rect:
         serializedVersion: 2
         x: 232
@@ -917,14 +942,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7874dd17a1c7cd90800000000000000
-      internalID: -7077475365885282180
+      spriteID: f556d2ccdf149d2d0800000000000000
+      internalID: -3253496697490414241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_29
+      name: 4.1_30
       rect:
         serializedVersion: 2
         x: 238
@@ -939,14 +964,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee8573fd5689524b0800000000000000
-      internalID: -5465795009440163602
+      spriteID: 712ce92e8c2a94080800000000000000
+      internalID: -9202645379875683817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_30
+      name: 4.1_31
       rect:
         serializedVersion: 2
         x: 244
@@ -961,14 +986,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2db89be1af540140800000000000000
-      internalID: 4684974661419187499
+      spriteID: c0c95c1d057f23970800000000000000
+      internalID: 8733314553913646092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_31
+      name: 4.1_32
       rect:
         serializedVersion: 2
         x: 271
@@ -983,14 +1008,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11fa2e4981da92af0800000000000000
-      internalID: -420614769093726447
+      spriteID: 8eb4bd36310071870800000000000000
+      internalID: 8653385292295392232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_32
+      name: 4.1_33
       rect:
         serializedVersion: 2
         x: 105
@@ -1005,14 +1030,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6023eab3bace90c0800000000000000
-      internalID: -4566990098823700370
+      spriteID: 1a9cf2325f5197bb0800000000000000
+      internalID: -4937891373833533023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_33
+      name: 4.1_34
       rect:
         serializedVersion: 2
         x: 108
@@ -1027,14 +1052,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3910721c32b7aae60800000000000000
-      internalID: 7974321483707515283
+      spriteID: 0a485cbadc93523d0800000000000000
+      internalID: -3232113602055535456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_34
+      name: 4.1_35
       rect:
         serializedVersion: 2
         x: 112
@@ -1049,14 +1074,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78adf2cb3d7e58030800000000000000
-      internalID: 3496455582304426631
+      spriteID: aaad7face36216de0800000000000000
+      internalID: -1341749162844628310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_35
+      name: 4.1_36
       rect:
         serializedVersion: 2
         x: 116
@@ -1071,14 +1096,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 378d3e01a3160ff20800000000000000
-      internalID: 3454367816212535411
+      spriteID: 6158aa443b17aa460800000000000000
+      internalID: 7253735164598715670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_36
+      name: 4.1_37
       rect:
         serializedVersion: 2
         x: 123
@@ -1093,14 +1118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a51d134641fdc2ed0800000000000000
-      internalID: -2437328019640954534
+      spriteID: ca52af739047a5580800000000000000
+      internalID: -8837623735818508884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_37
+      name: 4.1_38
       rect:
         serializedVersion: 2
         x: 134
@@ -1115,14 +1140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 825aadeff7e6b0300800000000000000
-      internalID: 219390502873244968
+      spriteID: 61cc179cf69f9fe70800000000000000
+      internalID: 9149618376496237590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_38
+      name: 4.1_39
       rect:
         serializedVersion: 2
         x: 229
@@ -1137,14 +1162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75d86a94712c06f40800000000000000
-      internalID: 5719784932036218199
+      spriteID: 2d6d6f0f269daf270800000000000000
+      internalID: 8285173483474179794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_39
+      name: 4.1_40
       rect:
         serializedVersion: 2
         x: 248
@@ -1159,14 +1184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a440e1558f9fafdf0800000000000000
-      internalID: -145529192960883638
+      spriteID: ed85d44a01d4e7f10800000000000000
+      internalID: 2269335996112656606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_40
+      name: 4.1_41
       rect:
         serializedVersion: 2
         x: 118
@@ -1181,14 +1206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95f5b863b45624a50800000000000000
-      internalID: 6503872185588473689
+      spriteID: 8423edcc1dfe85210800000000000000
+      internalID: 1322070174997557832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_41
+      name: 4.1_42
       rect:
         serializedVersion: 2
         x: 129
@@ -1203,14 +1228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7f11b8605fea7ea0800000000000000
-      internalID: -5874119635318530182
+      spriteID: 9f3a216af23f448d0800000000000000
+      internalID: -2862896077125540871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_42
+      name: 4.1_43
       rect:
         serializedVersion: 2
         x: 141
@@ -1225,14 +1250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d25e3d5f72ab56e70800000000000000
-      internalID: 9107890502217491757
+      spriteID: 730813b9491673610800000000000000
+      internalID: 1600855483440267319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_43
+      name: 4.1_44
       rect:
         serializedVersion: 2
         x: 148
@@ -1247,14 +1272,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95075a46c10118d40800000000000000
-      internalID: 5584762727049818201
+      spriteID: 3c6c59bc3619f1720800000000000000
+      internalID: 2819131749560600259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_44
+      name: 4.1_45
       rect:
         serializedVersion: 2
         x: 151
@@ -1269,14 +1294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58ebe9a47a59b80c0800000000000000
-      internalID: -4572396450920612219
+      spriteID: e7d6044455ec10bf0800000000000000
+      internalID: -359779629600313986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_45
+      name: 4.1_46
       rect:
         serializedVersion: 2
         x: 223
@@ -1291,14 +1316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8d278fb8ec83aeb0800000000000000
-      internalID: -4709765854025798259
+      spriteID: 9357e37ab9d5b1c50800000000000000
+      internalID: 6637001398967760185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_46
+      name: 4.1_47
       rect:
         serializedVersion: 2
         x: 238
@@ -1313,14 +1338,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d35a392086485b100800000000000000
-      internalID: 123150147077252413
+      spriteID: 25841ca98fb8ed640800000000000000
+      internalID: 5106672927349229650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_47
+      name: 4.1_48
       rect:
         serializedVersion: 2
         x: 244
@@ -1335,14 +1360,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df60009079f0ecb90800000000000000
-      internalID: -7219816011262851331
+      spriteID: 1a8d71bfea23a0c80800000000000000
+      internalID: -8355810431514191711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_48
+      name: 4.1_49
       rect:
         serializedVersion: 2
         x: 252
@@ -1357,14 +1382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0ca73ee40a6525f0800000000000000
-      internalID: -782102390869873651
+      spriteID: d6adab86f986869c0800000000000000
+      internalID: -3933779240641963411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_49
+      name: 4.1_50
       rect:
         serializedVersion: 2
         x: 114
@@ -1379,14 +1404,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d8e8f3486264f680800000000000000
-      internalID: -8722238378353301289
+      spriteID: 3d4ba2c2be92f85b0800000000000000
+      internalID: -5364022541139921709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_50
+      name: 4.1_51
       rect:
         serializedVersion: 2
         x: 125
@@ -1401,14 +1426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb2019f6904795a60800000000000000
-      internalID: 7663283824822911675
+      spriteID: b373ce0bbc765a7b0800000000000000
+      internalID: -5213646869067188421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_51
+      name: 4.1_52
       rect:
         serializedVersion: 2
         x: 140
@@ -1423,14 +1448,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d094b54848b11af0800000000000000
-      internalID: -427357869076868904
+      spriteID: fd316119bdb3e5670800000000000000
+      internalID: 8529320558504317919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_52
+      name: 4.1_53
       rect:
         serializedVersion: 2
         x: 152
@@ -1445,14 +1470,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8bdf30275ba32ba0800000000000000
-      internalID: -6114855478347441270
+      spriteID: 4e156f0f4ded12080800000000000000
+      internalID: -9213838356466216476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_53
+      name: 4.1_54
       rect:
         serializedVersion: 2
         x: 229
@@ -1467,14 +1492,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db2988724567b8da0800000000000000
-      internalID: -5941525179572645187
+      spriteID: 0e0515422f01a9460800000000000000
+      internalID: 7249125182383673568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_54
+      name: 4.1_55
       rect:
         serializedVersion: 2
         x: 92
@@ -1489,14 +1514,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03fa43051179f4b10800000000000000
-      internalID: 1967957662800064304
+      spriteID: 87981145f63983340800000000000000
+      internalID: 4843783505598056824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_55
+      name: 4.1_56
       rect:
         serializedVersion: 2
         x: 125
@@ -1511,14 +1536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e5cdd1341aa32870800000000000000
-      internalID: 8656949912448910817
+      spriteID: 1fb28ef604db2f470800000000000000
+      internalID: 8427005937216662513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_56
+      name: 4.1_57
       rect:
         serializedVersion: 2
         x: 132
@@ -1533,14 +1558,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df723805d8d50dc50800000000000000
-      internalID: 6687948308167731197
+      spriteID: 5efaeafb1f0ee5d90800000000000000
+      internalID: -7106995833036427291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_57
+      name: 4.1_58
       rect:
         serializedVersion: 2
         x: 150
@@ -1555,14 +1580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e82c53842ab8da80800000000000000
-      internalID: -8441792835520550681
+      spriteID: 363734e0009100cd0800000000000000
+      internalID: -2594045897335409821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_58
+      name: 4.1_59
       rect:
         serializedVersion: 2
         x: 115
@@ -1577,14 +1602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee58a59496b133ad0800000000000000
-      internalID: -2723803210612832786
+      spriteID: 9eba49416d975f690800000000000000
+      internalID: -7569009638351000599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_59
+      name: 4.1_60
       rect:
         serializedVersion: 2
         x: 126
@@ -1599,14 +1624,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e63ff354dab9df710800000000000000
-      internalID: 1728709000473604974
+      spriteID: 7aa05bfabf67d0960800000000000000
+      internalID: 7569837372036418215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_60
+      name: 4.1_61
       rect:
         serializedVersion: 2
         x: 148
@@ -1621,14 +1646,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9969306602c88790800000000000000
-      internalID: -7527553444509816418
+      spriteID: 01c30a6b42356d1c0800000000000000
+      internalID: -4479301362225497072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_61
+      name: 4.1_62
       rect:
         serializedVersion: 2
         x: 148
@@ -1643,14 +1668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a1f3b89850826330800000000000000
-      internalID: 3702662961659376032
+      spriteID: b034065c52cd5a260800000000000000
+      internalID: 7108329641657516811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flyingsheepLeft1_62
+      name: 4.1_63
       rect:
         serializedVersion: 2
         x: 180
@@ -1665,8 +1690,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de3d63762b720bab0800000000000000
-      internalID: -4994448339564571667
+      spriteID: 099c784bc6c6624f0800000000000000
+      internalID: -853875865199064688
       vertices: []
       indices: 
       edges: []
@@ -1685,69 +1710,70 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      flyingsheepLeft1_0: 4092928344006247640
-      flyingsheepLeft1_1: 5699232612225849758
-      flyingsheepLeft1_10: -8409247548522911297
-      flyingsheepLeft1_11: -6858782362215974829
-      flyingsheepLeft1_12: 8506198265596943854
-      flyingsheepLeft1_13: 8176887391760029061
-      flyingsheepLeft1_14: 1662708286850964082
-      flyingsheepLeft1_15: -4369590071794012588
-      flyingsheepLeft1_16: -2140229896670449705
-      flyingsheepLeft1_17: 1110848602013649541
-      flyingsheepLeft1_18: 7278220647439131552
-      flyingsheepLeft1_19: 7507672962404924364
-      flyingsheepLeft1_2: -8127308614956716175
-      flyingsheepLeft1_20: 3975057590950534405
-      flyingsheepLeft1_21: 3116733682638896078
-      flyingsheepLeft1_22: -5235595721604230694
-      flyingsheepLeft1_23: -7614649953565907593
-      flyingsheepLeft1_24: 7912114936124434688
-      flyingsheepLeft1_25: -3907543401516452858
-      flyingsheepLeft1_26: 2006936579644141831
-      flyingsheepLeft1_27: -4664143353201803197
-      flyingsheepLeft1_28: -7077475365885282180
-      flyingsheepLeft1_29: -5465795009440163602
-      flyingsheepLeft1_3: -304871172887476544
-      flyingsheepLeft1_30: 4684974661419187499
-      flyingsheepLeft1_31: -420614769093726447
-      flyingsheepLeft1_32: -4566990098823700370
-      flyingsheepLeft1_33: 7974321483707515283
-      flyingsheepLeft1_34: 3496455582304426631
-      flyingsheepLeft1_35: 3454367816212535411
-      flyingsheepLeft1_36: -2437328019640954534
-      flyingsheepLeft1_37: 219390502873244968
-      flyingsheepLeft1_38: 5719784932036218199
-      flyingsheepLeft1_39: -145529192960883638
-      flyingsheepLeft1_4: 3270569923844451377
-      flyingsheepLeft1_40: 6503872185588473689
-      flyingsheepLeft1_41: -5874119635318530182
-      flyingsheepLeft1_42: 9107890502217491757
-      flyingsheepLeft1_43: 5584762727049818201
-      flyingsheepLeft1_44: -4572396450920612219
-      flyingsheepLeft1_45: -4709765854025798259
-      flyingsheepLeft1_46: 123150147077252413
-      flyingsheepLeft1_47: -7219816011262851331
-      flyingsheepLeft1_48: -782102390869873651
-      flyingsheepLeft1_49: -8722238378353301289
-      flyingsheepLeft1_5: -8448075328681400179
-      flyingsheepLeft1_50: 7663283824822911675
-      flyingsheepLeft1_51: -427357869076868904
-      flyingsheepLeft1_52: -6114855478347441270
-      flyingsheepLeft1_53: -5941525179572645187
-      flyingsheepLeft1_54: 1967957662800064304
-      flyingsheepLeft1_55: 8656949912448910817
-      flyingsheepLeft1_56: 6687948308167731197
-      flyingsheepLeft1_57: -8441792835520550681
-      flyingsheepLeft1_58: -2723803210612832786
-      flyingsheepLeft1_59: 1728709000473604974
-      flyingsheepLeft1_6: 1501701748667468871
-      flyingsheepLeft1_60: -7527553444509816418
-      flyingsheepLeft1_61: 3702662961659376032
-      flyingsheepLeft1_62: -4994448339564571667
-      flyingsheepLeft1_7: -8735376169098558311
-      flyingsheepLeft1_8: 2369896304078360003
-      flyingsheepLeft1_9: 8126344067311565584
+      4.1_0: 1036393447275659553
+      4.1_1: -1155005184861963121
+      4.1_10: -7468232290294908856
+      4.1_11: 9035686740499598559
+      4.1_12: -7216296909280980453
+      4.1_13: -6719976351843534825
+      4.1_14: 6820695067162816819
+      4.1_15: 7316886587761538198
+      4.1_16: 7540642047791107705
+      4.1_17: -1020300158104384488
+      4.1_18: -549809577381161832
+      4.1_19: -3571215831815810159
+      4.1_2: 522976516707100918
+      4.1_20: -8864393297163623898
+      4.1_21: -8184538466610652617
+      4.1_22: -1205702532830613499
+      4.1_23: -7442450584459771214
+      4.1_24: 2425521766842336008
+      4.1_25: 5133003454439036115
+      4.1_26: 4371234658071148913
+      4.1_27: 8303099055474521803
+      4.1_28: 808915397906773742
+      4.1_29: -3253496697490414241
+      4.1_3: -6841116347856546099
+      4.1_30: -9202645379875683817
+      4.1_31: 8733314553913646092
+      4.1_32: 8653385292295392232
+      4.1_33: -4937891373833533023
+      4.1_34: -3232113602055535456
+      4.1_35: -1341749162844628310
+      4.1_36: 7253735164598715670
+      4.1_37: -8837623735818508884
+      4.1_38: 9149618376496237590
+      4.1_39: 8285173483474179794
+      4.1_4: -8833659223492314518
+      4.1_40: 2269335996112656606
+      4.1_41: 1322070174997557832
+      4.1_42: -2862896077125540871
+      4.1_43: 1600855483440267319
+      4.1_44: 2819131749560600259
+      4.1_45: -359779629600313986
+      4.1_46: 6637001398967760185
+      4.1_47: 5106672927349229650
+      4.1_48: -8355810431514191711
+      4.1_49: -3933779240641963411
+      4.1_5: 1316022460671601936
+      4.1_50: -5364022541139921709
+      4.1_51: -5213646869067188421
+      4.1_52: 8529320558504317919
+      4.1_53: -9213838356466216476
+      4.1_54: 7249125182383673568
+      4.1_55: 4843783505598056824
+      4.1_56: 8427005937216662513
+      4.1_57: -7106995833036427291
+      4.1_58: -2594045897335409821
+      4.1_59: -7569009638351000599
+      4.1_6: 1898778752366174796
+      4.1_60: 7569837372036418215
+      4.1_61: -4479301362225497072
+      4.1_62: 7108329641657516811
+      4.1_63: -853875865199064688
+      4.1_7: 1096426771787262801
+      4.1_8: 3794921183131948001
+      4.1_9: -6672548276472426615
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
