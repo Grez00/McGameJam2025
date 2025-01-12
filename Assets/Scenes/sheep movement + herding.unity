@@ -133106,11 +133106,11 @@ MonoBehaviour:
   boxPrefab: {fileID: 4146151017660310425, guid: fc06d196a60a92e4995762d1f115ded9, type: 3}
   max_diff: 10
   balanceText: {fileID: 1381157423}
-  SchoolSheep: {fileID: 0}
-  AngelSheep: {fileID: 0}
-  NinjaSheep: {fileID: 0}
-  MusicSheep: {fileID: 0}
-  SherlockSheep: {fileID: 0}
+  SchoolSheep: {fileID: 22100000, guid: ebbaaf4f90d5b1e48a06ef9cc82e3971, type: 2}
+  AngelSheep: {fileID: 22100000, guid: fd56655e6bd3b8249b0302ce5867f35d, type: 2}
+  NinjaSheep: {fileID: 22100000, guid: a4ca7e201383dea428d0105540f6cfa9, type: 2}
+  MusicSheep: {fileID: 22100000, guid: 5939e051748bb334b97dcfb409a374fe, type: 2}
+  SherlockSheep: {fileID: 22100000, guid: 69b9193272e514740a9dac5e67ce6e73, type: 2}
 --- !u!4 &1467044815
 Transform:
   m_ObjectHideFlags: 0

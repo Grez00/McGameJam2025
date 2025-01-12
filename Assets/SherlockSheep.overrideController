@@ -7,5 +7,5 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SherlockSheep
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1c7adaffc714b4cf6bb2ee32cba2fed7, type: 2}
   m_Clips: []
