@@ -53,8 +53,8 @@ public class SheepMovement : MonoBehaviour
             sheepSpawner.SheepLost(sheep.gameObject);
         }
  
-        runSpeed = manager.getDifficulty() + 1;
-        runChance = manager.getDifficulty() * .1f; 
+        runSpeed = (Mathf.Pow(manager.getDifficulty(),2)/10 + 1);
+        runChance = (Mathf.Pow(manager.getDifficulty(),2)/100 + .1f); 
 
         //if the speed exceeds a threshold, the sheep feet moves faster
     }   
