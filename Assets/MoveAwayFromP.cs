@@ -15,8 +15,7 @@ public class MoveAwayFromP : MonoBehaviour
     private SheepMovement movement;
     private float lastHit = -1f; // Stores the time of the last hit
     private float cooldown = 1f; // Minimum time between hits
-    // Multiplier for the wait time after hitting the sheep
-    public float waitTimeMultiplier = 3f;
+    public float waitTimeMultiplier = 3f; // Multiplier for the wait time after hitting the sheep
 
     IEnumerator HitSheep()
     {
@@ -85,7 +84,7 @@ public class MoveAwayFromP : MonoBehaviour
                 if (distanceToPlayer < triggerDistance)
                 {
                     StartCoroutine(HitSheep());
-                    // transform.position = (Vector2)transform.position + directionAway * moveSpeed * Time.deltaTime;
+                    /* transform.position = (Vector2)transform.position + directionAway * moveSpeed * Time.deltaTime;
                     if (spawnPoint != null)
                     {
                         SheepSpawner sheepSpawner = spawnPoint.GetComponent<SheepSpawner>();
@@ -98,15 +97,17 @@ public class MoveAwayFromP : MonoBehaviour
                             movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
                         }
                     }
+                    */
                 }
                 else
                 {
                     Debug.LogError("GameManager is not initialized.");
                 }
                 Debug.Log("Sheep returned to pen");
+                /*
                 if (movement == null) Debug.LogError("No movement component found at move time!");
                 movement.setSheepVelocity(directionAway * moveSpeed, movement.runSpeed);
-
+                */
             }
 
 
