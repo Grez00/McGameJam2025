@@ -9,7 +9,7 @@ public class SheepSpawner : MonoBehaviour
     [SerializeField] private int spawnRate = 2;
     //radius in which sheep create money
     [SerializeField] private float safeRadius = 0.5f;
-    //list of sheep in safe radius
+    //list of existing sheep safe radius
     private List<GameObject> sheep = new List<GameObject>();
     private Transform[] spawnPoints;
     private GameObject currentSheep;
@@ -33,13 +33,15 @@ public class SheepSpawner : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(spawnRate);
-            Transform spawnPos = spawnPoints[Random.Range(0, spawnPoints.Length)];
+            Transform spawnPos = spawnPoints[Random.Range(1, spawnPoints.Length)];
             currentSheep = Instantiate(sheepPrefab, spawnPos.position, Quaternion.identity);
+
             //make sheep sprite smaller
             currentSheep.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
             SheepMovement movement = currentSheep.GetComponent<SheepMovement>();
             movement.sheepSpawner = this;
             movement.manager = manager;
+            movement.sheepInstance = currentSheep;
 
             sheep.Add(currentSheep);
         }
@@ -55,7 +57,7 @@ public class SheepSpawner : MonoBehaviour
         return safeRadius;
     }
 
-    //updates sheep list when one is lost
+    //updates sheep list when one is returned
     public void SheepLost(GameObject lostSheep)
     {
         sheep.Remove(lostSheep);
