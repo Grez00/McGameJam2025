@@ -97,8 +97,7 @@ public class GameManager : MonoBehaviour
 
     public void gameOver()
     {
-        SceneLoader.LoadScene(sceneName:"GameOver");
-
+        SceneManager.LoadScene (sceneName:"MetaEndScreen");
     }
 
     public void gameEnd()
